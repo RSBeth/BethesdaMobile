@@ -16,8 +16,7 @@
           "XF.Material": "1.6.5",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.7.0.1179",
-          "sqlite-net-pcl": "1.7.335",
-          "Mono.Android": "0.0.0.0"
+          "sqlite-net-pcl": "1.7.335"
         },
         "runtime": {
           "BethesdaMobileXamarin.dll": {}
@@ -194,14 +193,6 @@
             "fileVersion": "1.6.5.0"
           }
         }
-      },
-      "Mono.Android/0.0.0.0": {
-        "runtime": {
-          "Mono.Android.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
-        }
       }
     }
   },
@@ -336,11 +327,6 @@
       "sha512": "sha512-vOEi4SsIokQ2WQr7hjvNyjWgpmroBshIRkRfIkqgLzRjwUsAGJ7Q3T1Jt4W8D8K0fTBkMqCrkz6sCV+QS+i9QQ==",
       "path": "xf.material/1.6.5",
       "hashPath": "xf.material.1.6.5.nupkg.sha512"
-    },
-    "Mono.Android/0.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

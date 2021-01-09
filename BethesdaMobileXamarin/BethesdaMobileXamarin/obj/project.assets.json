@@ -1157,35 +1157,29 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/itbethesda/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.csproj",
+      "projectUniqueName": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.csproj",
       "projectName": "BethesdaMobileXamarin",
-      "projectPath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\obj\\",
+      "projectPath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.csproj",
+      "packagesPath": "/Users/itbethesda/.nuget/packages/",
+      "outputPath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/itbethesda/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -1197,6 +1191,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "DLToolkit.Forms.Controls.FlowListView": {
             "target": "Package",
@@ -1243,7 +1238,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

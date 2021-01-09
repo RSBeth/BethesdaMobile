@@ -1,5 +1,4 @@
 ﻿using BethesdaMobileXamarin.Registration.Model;
-using Java.Net;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -8,7 +7,6 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace BethesdaMobileXamarin.Registration.Services
 {

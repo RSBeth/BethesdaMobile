@@ -1,13 +1,8 @@
-﻿using Android.Views;
-using BethesdaMobileXamarin.Registration.Model;
+﻿using BethesdaMobileXamarin.Registration.Model;
 using BethesdaMobileXamarin.Registration.Services;
 using BethesdaMobileXamarin.Utility;
 using Rg.Plugins.Popup.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
