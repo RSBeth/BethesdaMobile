@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "qvhbQdB6phWNEn+JF52SlFXpPQqHw3hdais43lnwRXQpLjF+7ArtOU3TdSV2s85IZ9n7f7dpplwP31ehlRa4jQ==",
+  "success": true,
+  "projectFilePath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.iOS\\BethesdaMobileXamarin.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\com.airbnb.ios.lottie\\2.5.11\\com.airbnb.ios.lottie.2.5.11.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\com.airbnb.xamarin.forms.lottie\\3.1.2\\com.airbnb.xamarin.forms.lottie.3.1.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\dltoolkit.forms.controls.flowlistview\\2.0.11\\dltoolkit.forms.controls.flowlistview.2.0.11.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\rg.plugins.popup\\2.0.0.3\\rg.plugins.popup.2.0.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.licensing\\18.2.0.48\\syncfusion.licensing.18.2.0.48.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.xamarin.core\\18.2.0.48\\syncfusion.xamarin.core.18.2.0.48.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\syncfusion.xamarin.sfpicker\\18.2.0.48\\syncfusion.xamarin.sfpicker.18.2.0.48.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.forms\\4.7.0.1179\\xamarin.forms.4.7.0.1179.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xf.material\\1.6.5\\xf.material.1.6.5.nupkg.sha512"
+  ],
+  "logs": []
+}
