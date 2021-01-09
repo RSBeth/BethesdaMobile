@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:converters="clr-namespace:BethesdaMobileXamarin.Registration"
+             mc:Ignorable="d"
+             x:Class="BethesdaMobileXamarin.Registration.KlinikPickerForm">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:ListViewColorConverter x:Key="ListViewColorConverter"></converters:ListViewColorConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+
+            <StackLayout>
+                <SearchBar Placeholder="Cari Klinik....." TextChanged="SearchBar_TextChanged"
+           CancelButtonColor="Orange"
+           PlaceholderColor="Orange"
+           TextColor="Orange"
+           HorizontalTextAlignment="Center"
+           FontSize="Medium"
+           FontAttributes="Italic" />
+                <ListView x:Name="lvKlinik" ItemTapped="lvKlinik_ItemTapped">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding NamaKlinik}" TextColor="{Binding praktek , Converter={StaticResource ListViewColorConverter}}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage.Content>
+</ContentPage>
