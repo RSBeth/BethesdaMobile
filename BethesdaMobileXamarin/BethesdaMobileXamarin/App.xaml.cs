@@ -28,5 +28,11 @@ namespace BethesdaMobileXamarin
         protected override void OnResume()
         {
         }
+        public static string AppTheme
+        {
+            get; set;
+        }
+
+
     }
 }

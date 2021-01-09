@@ -72,3 +72,5 @@ D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXama
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\ref\BethesdaMobileXamarin.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Styles\DarkTheme.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Styles\WhiteTheme.xaml.g.cs

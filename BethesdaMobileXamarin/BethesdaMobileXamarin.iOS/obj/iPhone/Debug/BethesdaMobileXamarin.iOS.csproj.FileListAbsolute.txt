@@ -248,3 +248,5 @@ D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXama
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhone\Debug\BethesdaMobileXamarin.iOS.csproj.CopyComplete
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhone\Debug\BethesdaMobileXamarin.iOS.exe
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhone\Debug\BethesdaMobileXamarin.iOS.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhone\Debug\Mono.Android.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhone\Debug\Mono.Android.xml

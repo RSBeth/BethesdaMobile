@@ -27,7 +27,7 @@
             <Setter Property="CornerRadius" Value="10" />
             <Setter Property="HasShadow" Value="{OnPlatform Android=True, iOS=False}" />
         </Style>
-
+        <ResourceDictionary Source="/Styles/WhiteTheme.xaml" />
     </Application.Resources>
 
 </Application>
