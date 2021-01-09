@@ -157,4 +157,67 @@
       <Name>BethesdaMobileXamarin</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ambulance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\antri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\approval.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\call.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\call2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\clock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\farmasi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\info_klinik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\iso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\klinik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logo_bethesda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\registration.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\schedule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\stetoskop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\telemedecine.png" />
+  </ItemGroup>
 </Project>

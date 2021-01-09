@@ -46,3 +46,29 @@ D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMo
 /Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin/bin/Debug/netstandard2.0/ref/BethesdaMobileXamarin.dll
 /Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin/bin/Debug/netstandard2.0/BethesdaMobileXamarin.pdb
 /Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin/obj/Debug/netstandard2.0/XamlC.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\bin\Debug\netstandard2.0\BethesdaMobileXamarin.deps.json
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\bin\Debug\netstandard2.0\BethesdaMobileXamarin.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\bin\Debug\netstandard2.0\ref\BethesdaMobileXamarin.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\bin\Debug\netstandard2.0\BethesdaMobileXamarin.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\bin\Debug\netstandard2.0\Mono.Android.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\bin\Debug\netstandard2.0\Mono.Android.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\bin\Debug\netstandard2.0\Mono.Android.xml
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.csprojAssemblyReference.cache
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Login\LoginForm.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Main\IntroPage.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Main\MainMenu.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\DokterPickerForm.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\KlinikPickerForm.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\RegistrationForm.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Room\EmptyRoomForm.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Utility\DialogAlertCustom.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.AssemblyInfoInputs.cache
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.AssemblyInfo.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.csproj.CoreCompileInputs.cache
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.csproj.CopyComplete
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\ref\BethesdaMobileXamarin.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.pdb
