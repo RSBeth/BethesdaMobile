@@ -23,8 +23,9 @@ namespace BethesdaMobileXamarin.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-global::Xamarin.Forms.Forms.Init();
-SfDatePickerRenderer.Init();
+            Rg.Plugins.Popup.Popup.Init();
+            global::Xamarin.Forms.Forms.Init();
+            SfDatePickerRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
