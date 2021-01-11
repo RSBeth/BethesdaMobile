@@ -31,7 +31,7 @@ namespace BethesdaMobileXamarin.Registration.Services
         {
             List<HolidayDate> holidayDateList = new List<HolidayDate>();
             HolidayDate holidayDate = new HolidayDate();
-            var uri = new Uri($"{urlWebServices}/getliburnasional/?dTanggal=01/01/2021");
+            var uri = new Uri($"{urlWebServices}/getliburnasional/?dTanggal="+tglRegis);
             try
             {
                 var response = await client.GetAsync(uri);

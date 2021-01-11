@@ -24,6 +24,8 @@ namespace BethesdaMobileXamarin.Main
         {
             InitializeComponent();
             loadMenu();
+         
+
         }
 
         private void loadMenu()
@@ -62,7 +64,7 @@ namespace BethesdaMobileXamarin.Main
             }
             if (id == 4)
             {
-                await Navigation.PushModalAsync(new EmptyRoomForm());
+                await Navigation.PushAsync(new LoginForm());
 
                 //}
 

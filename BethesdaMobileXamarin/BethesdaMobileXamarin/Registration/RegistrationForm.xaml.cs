@@ -18,24 +18,24 @@ namespace BethesdaMobileXamarin.Registration
         private string _namaKlinik;
         private string _kodeDokter;
         private string _namaDokter;
-       
+        private HolidayDate holidayDate;
         private DateUtil dateUtil;
         public RegistrationForm()
         {
             InitializeComponent();
             dateUtil= new DateUtil();
-            setDatePickerValue();
+            holidayDate = new HolidayDate();
             _kodeKLinik = "";
             _namaKlinik = "";
             _kodeDokter = "";
             _namaDokter = "";
-            
+          // setDatePickerValue();
         }
 
         private void setDatePickerValue()
         {
             //dtTglPeriksa.NullableDate = null;
-
+           
             string maxHari = Preferences.Get("maxHari", "");
             string currentDate = Preferences.Get("currentDate", "");
            
@@ -45,16 +45,19 @@ namespace BethesdaMobileXamarin.Registration
           
         }
 
-        public RegistrationForm(string kodeKlinik, string namaKlinik, string kodeDokter, string namaDokter)
+        public RegistrationForm(string kodeKlinik, string namaKlinik, string kodeDokter, string namaDokter,string dateSelected)
         {
             InitializeComponent();
-            setDatePickerValue();
+          ;
             _kodeKLinik = kodeKlinik;
             _namaKlinik = namaKlinik;
             _kodeDokter = kodeDokter;
             _namaDokter = namaDokter;
             txtDokter.Text = _namaDokter;
             txtKlinik.Text = _namaKlinik;
+
+            dtTglPeriksa.Date = DateTime.Parse(dateSelected);
+          //  setDatePickerValue();
         }
 
         protected override void OnAppearing()
@@ -67,7 +70,7 @@ namespace BethesdaMobileXamarin.Registration
             _kodeKLinik = "";
             _namaKlinik = "";
             txtKlinik.Text = "";
-            await Navigation.PushModalAsync(new KlinikPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToShortDateString()));
+            await Navigation.PushModalAsync(new KlinikPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToString()));
             
           
         }
@@ -78,12 +81,19 @@ namespace BethesdaMobileXamarin.Registration
             _namaDokter = "";
             txtDokter.Text = "";
          
-            await Navigation.PushModalAsync(new DokterPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToShortDateString()));
+            await Navigation.PushModalAsync(new DokterPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToString()));
         }
 
         private async void btnDaftar_Clicked(object sender, EventArgs e)
         {
-           
+            holidayDate =  await GetHolidayDateTask(dtTglPeriksa.Date.ToString());
+            if (holidayDate.deskripsiresponse.ToLower() != ("ok"))
+            {
+
+                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Informasi", holidayDate.response));
+                return;
+
+            }
             if ((txtDokter.Text.Length == 0) || (_kodeDokter == ""))
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Dokter Belum dipilih!!"));
@@ -98,20 +108,12 @@ namespace BethesdaMobileXamarin.Registration
             return;
         }
 
-        private async Task GetHolidayDateTask(string tglRegis)
+        private async Task<HolidayDate> GetHolidayDateTask(string tglRegis)
         {
             RegistrationServices registrationServices = new RegistrationServices();
             HolidayDate holidayList = await registrationServices.GetHolidayDate(tglRegis);
-            if (holidayList.deskripsiresponse !=("ok"))
-            {
-                
-                await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Informasi", holidayList.response));
-                _kodeDokter = "";
-                _namaDokter = "";
-                txtDokter.Text = "";
-              
-            }
-           
+          
+            return holidayList;
 
 
 

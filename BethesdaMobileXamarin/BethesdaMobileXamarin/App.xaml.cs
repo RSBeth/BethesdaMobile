@@ -15,6 +15,7 @@ namespace BethesdaMobileXamarin
             FlowListView.Init();
             MainPage = new NavigationPage(new IntroPage());
 
+
         }
 
         protected override void OnStart()

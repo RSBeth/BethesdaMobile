@@ -88,7 +88,7 @@ namespace BethesdaMobileXamarin.Registration
             }
             else
             {
-                await Navigation.PushModalAsync(new RegistrationForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter));
+                await Navigation.PushModalAsync(new RegistrationForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter,_tglreg));
             }
            
         }
