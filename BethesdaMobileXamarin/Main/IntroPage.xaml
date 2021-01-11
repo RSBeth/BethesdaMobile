@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundImageSource="background.png"
+                NavigationPage.HasNavigationBar="False"
+             x:Class="BethesdaMobileXamarin.Main.IntroPage">
+    <ContentPage.Content>
+
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" Margin="0,80,0,0" >
+            <Image Source="logo_bethesda.png" WidthRequest="170" HeightRequest="130"></Image>
+            <Label Text="{StaticResource AppFirstName}"  FontFamily="RobotoSlab-Regular" FontSize="Title" TextColor="White"  HorizontalTextAlignment="Center"></Label>
+            <Label Text="{StaticResource AppNamaRS}" FontSize="Title"   FontFamily="RobotoSlab-Regular" HorizontalTextAlignment="Center" TextColor="White"></Label>
+            <Label Text="{StaticResource AppAddress}" FontSize="Subtitle"  FontFamily="RobotoSlab-Regular"  HorizontalTextAlignment="Center" TextColor="White"></Label>
+            <StackLayout Margin="60">
+                <ProgressBar ProgressColor="Green" HeightRequest="100"   
+                         Progress="0.2"  x:Name="pbIntro"/>
+            </StackLayout>
+
+
+
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

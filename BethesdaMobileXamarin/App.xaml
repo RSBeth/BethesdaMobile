@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BethesdaMobileXamarin.App">
+    <Application.Resources>
+
+
+
+        <Color x:Key="WhiteColor">#FFFFFF</Color>
+        <Color x:Key="GreyColor">#A9A9A9</Color>
+        
+        <x:String x:Key="AppName">Aplikasi Mobile Rs Bethesda</x:String>
+        <x:String x:Key="TitleName">Bethesda Mobile</x:String>
+        <x:String x:Key="AppFirstName">Aplikasi Mobile</x:String>
+        <x:String x:Key="AppNamaRS">Rumah Sakit Bethesda</x:String>
+        <x:String x:Key="AppAddress">Jl.Jend Sudirman no 70 Yogyakarta</x:String>
+        <x:String x:Key="TitlePendaftaranOnline">Pendaftaran Online RS Bethesda</x:String>
+        <x:String x:Key="urlWebServices">https://rs.bethesda.or.id:449/API/</x:String>
+        <x:String x:Key="userNameWS">RSByyk</x:String>
+        <x:String x:Key="passwordWS">Rsb2020</x:String>
+        <Style x:Key="DefaultFrame" TargetType="Frame">
+            <Setter Property="BackgroundColor" Value="{StaticResource WhiteColor}" />
+            <Setter Property="BorderColor" Value="{StaticResource GreyColor}"/>
+            <Setter Property="CornerRadius" Value="10" />
+            <Setter Property="HasShadow" Value="{OnPlatform Android=True, iOS=False}" />
+        </Style>
+        
+    </Application.Resources>
+
+</Application>
