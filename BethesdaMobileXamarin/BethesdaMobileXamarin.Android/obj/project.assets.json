@@ -2479,39 +2479,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/itbethesda/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.Android\\BethesdaMobileXamarin.Android.csproj",
+      "projectUniqueName": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin.Android/BethesdaMobileXamarin.Android.csproj",
       "projectName": "BethesdaMobileXamarin.Android",
-      "projectPath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.Android\\BethesdaMobileXamarin.Android.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.Android\\obj\\",
+      "projectPath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin.Android/BethesdaMobileXamarin.Android.csproj",
+      "packagesPath": "/Users/itbethesda/.nuget/packages/",
+      "outputPath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/itbethesda/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.csproj": {
-              "projectPath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.csproj"
+            "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.csproj": {
+              "projectPath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.csproj"
             }
           }
         }

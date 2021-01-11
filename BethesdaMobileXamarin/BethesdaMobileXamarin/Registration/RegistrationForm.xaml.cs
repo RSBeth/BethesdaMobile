@@ -34,7 +34,7 @@ namespace BethesdaMobileXamarin.Registration
 
         private void setDatePickerValue()
         {
-            dtTglPeriksa.NullableDate = null;
+            //dtTglPeriksa.NullableDate = null;
 
             string maxHari = Preferences.Get("maxHari", "");
             string currentDate = Preferences.Get("currentDate", "");
@@ -83,11 +83,7 @@ namespace BethesdaMobileXamarin.Registration
 
         private async void btnDaftar_Clicked(object sender, EventArgs e)
         {
-            if (dtTglPeriksa.NullableDate == null)
-            {
-                await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Tanggal Masih Belum Dipilih!"));
-                return;
-            }
+           
             if ((txtDokter.Text.Length == 0) || (_kodeDokter == ""))
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Dokter Belum dipilih!!"));
@@ -108,7 +104,7 @@ namespace BethesdaMobileXamarin.Registration
             HolidayDate holidayList = await registrationServices.GetHolidayDate(tglRegis);
             if (holidayList.deskripsiresponse !=("ok"))
             {
-                dtTglPeriksa.NullableDate = null;
+                
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Informasi", holidayList.response));
                 _kodeDokter = "";
                 _namaDokter = "";
@@ -129,11 +125,12 @@ namespace BethesdaMobileXamarin.Registration
            
         }
 
-        private async void dtTglPeriksa_DateSelected(object sender, DateChangedEventArgs e)
-        {
-            string tglRegis = dtTglPeriksa.Date.ToShortDateString();
-            await GetHolidayDateTask(tglRegis);
+        //private  void dtTglPeriksa_DateSelected(object sender, DateChangedEventArgs e)
+        //{
+        //    string tglRegis = dtTglPeriksa.Date.ToShortDateString();
             
-        }
+        ////    await GetHolidayDateTask(tglRegis);
+            
+        //}
     }
 }

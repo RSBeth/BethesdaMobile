@@ -46,7 +46,7 @@
                         <BoxView Color="Gray"
                                  HeightRequest="2"
                                  HorizontalOptions="Fill" />
-                        <utility:NullableDatePicker x:Name="dtTglPeriksa"   Format="dd-MMM-yyyy"    FontSize="Small"  DateSelected ="dtTglPeriksa_DateSelected" Focused="dtTglPeriksa_Focused"  ></utility:NullableDatePicker>
+                        <DatePicker x:Name="dtTglPeriksa"   Format="dd-MMM-yyyy"    FontSize="Small"   Focused="dtTglPeriksa_Focused"  ></DatePicker>
                     </StackLayout>
                 </Frame>
 

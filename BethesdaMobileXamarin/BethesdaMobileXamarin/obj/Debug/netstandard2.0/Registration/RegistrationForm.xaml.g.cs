@@ -13,7 +13,7 @@
 namespace BethesdaMobileXamarin.Registration {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Registration\\RegistrationForm.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Registration/RegistrationForm.xaml")]
     public partial class RegistrationForm : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -44,7 +44,7 @@ namespace BethesdaMobileXamarin.Registration {
         private global::Xamarin.Forms.Label lblAlamat;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::BethesdaMobileXamarin.Utility.NullableDatePicker dtTglPeriksa;
+        private global::Xamarin.Forms.DatePicker dtTglPeriksa;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Entry txtKlinik;
@@ -67,7 +67,7 @@ namespace BethesdaMobileXamarin.Registration {
             lblTglLahir = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblTglLahir");
             lbl4 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lbl4");
             lblAlamat = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblAlamat");
-            dtTglPeriksa = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::BethesdaMobileXamarin.Utility.NullableDatePicker>(this, "dtTglPeriksa");
+            dtTglPeriksa = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.DatePicker>(this, "dtTglPeriksa");
             txtKlinik = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "txtKlinik");
             txtDokter = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "txtDokter");
             btnDaftar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "btnDaftar");
