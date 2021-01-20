@@ -5,10 +5,11 @@ using System.Text;
 using BethesdaMobileXamarin.iOS;
 using Foundation;
 using Rg.Plugins.Popup.IOS.Renderers;
+using Rg.Plugins.Popup.Pages;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
-[assembly: ExportRenderer(typeof(PopupPageRenderer), typeof(DialogAlertPageRenderer))]
+[assembly: ExportRenderer(typeof(PopupPage), typeof(DialogAlertPageRenderer))]
 namespace BethesdaMobileXamarin.iOS
 {
     public class DialogAlertPageRenderer : PopupPageRenderer
