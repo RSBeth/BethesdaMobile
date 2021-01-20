@@ -36,7 +36,7 @@ namespace BethesdaMobileXamarin.Main
             new MenuModel(){ Menuid=1 , Title ="Pendaftaran Online" ,ImageSource="registration.jpg"},
             new MenuModel(){Menuid=2 ,Title ="Riwayat Pendaftaran Online" ,ImageSource="stetoskop.jpg"},
             new MenuModel(){Menuid=3 ,Title ="Jadwal Dokter" ,ImageSource="doctor.png"},
-            new MenuModel(){Menuid=4 ,Title ="Informasi Kamar" ,ImageSource="bed.png"},
+            new MenuModel(){Menuid=4 ,Title ="Informasi Kamar" ,ImageSource="bed.jpg"},
             new MenuModel(){Menuid=5 ,Title ="Info Antrian Dokter" ,ImageSource="antri.png"},
             new MenuModel(){Menuid=6 ,Title ="Tracking Resep Farmasi" ,ImageSource="farmasi.png"},
             new MenuModel(){Menuid=7 ,Title ="Telemedicine" ,ImageSource="telemedecine.png"}
