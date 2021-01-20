@@ -25,7 +25,7 @@
                         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                             <Image Source="{Binding ImageSource}"   WidthRequest="60" HeightRequest="50"   />
                             <Label  Text="{Binding Title}" WidthRequest="120" HorizontalTextAlignment="Center" 
-                                       VerticalTextAlignment="Center" FontFamily="Samantha" FontSize="Subtitle" ></Label>
+                                       VerticalTextAlignment="Center" FontFamily="Samantha" FontSize="Small" ></Label>
                         </StackLayout>
                     </Frame>
                 </DataTemplate>
