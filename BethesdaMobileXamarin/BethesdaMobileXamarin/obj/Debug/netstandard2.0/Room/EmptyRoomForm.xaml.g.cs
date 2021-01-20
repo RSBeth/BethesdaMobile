@@ -13,7 +13,7 @@
 namespace BethesdaMobileXamarin.Room {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Room\\EmptyRoomForm.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Room/EmptyRoomForm.xaml")]
     public partial class EmptyRoomForm : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
