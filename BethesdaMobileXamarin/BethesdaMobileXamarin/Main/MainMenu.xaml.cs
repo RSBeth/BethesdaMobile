@@ -64,7 +64,7 @@ namespace BethesdaMobileXamarin.Main
             }
             if (id == 4)
             {
-                await Navigation.PushAsync(new LoginForm());
+                await Navigation.PushAsync(new EmptyRoomForm());
 
                 //}
 

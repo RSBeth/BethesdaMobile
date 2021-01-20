@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/BethesdaMobileXamarin.iOS.csproj": {}
+    "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.iOS\\BethesdaMobileXamarin.iOS.csproj": {}
   },
   "projects": {
-    "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/BethesdaMobileXamarin.iOS.csproj": {
+    "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.iOS\\BethesdaMobileXamarin.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/BethesdaMobileXamarin.iOS.csproj",
+        "projectUniqueName": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.iOS\\BethesdaMobileXamarin.iOS.csproj",
         "projectName": "BethesdaMobileXamarin.iOS",
-        "projectPath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/BethesdaMobileXamarin.iOS.csproj",
-        "packagesPath": "/Users/itbethesda/.nuget/packages/",
-        "outputPath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/",
+        "projectPath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.iOS\\BethesdaMobileXamarin.iOS.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/itbethesda/.config/NuGet/NuGet.Config"
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.csproj": {
-                "projectPath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.csproj"
+              "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.csproj": {
+                "projectPath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.csproj"
               }
             }
           }
@@ -36,10 +42,6 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
-            "DLToolkit.Forms.Controls.FlowListView": {
-              "target": "Package",
-              "version": "[2.0.11, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -75,27 +77,32 @@
         }
       }
     },
-    "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.csproj": {
+    "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.csproj",
+        "projectUniqueName": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.csproj",
         "projectName": "BethesdaMobileXamarin",
-        "projectPath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.csproj",
-        "packagesPath": "/Users/itbethesda/.nuget/packages/",
-        "outputPath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/obj/",
+        "projectPath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/itbethesda/.config/NuGet/NuGet.Config"
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -107,12 +114,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "dependencies": {
-            "DLToolkit.Forms.Controls.FlowListView": {
-              "target": "Package",
-              "version": "[2.0.11, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -150,7 +152,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

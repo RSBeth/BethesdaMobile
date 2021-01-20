@@ -4,7 +4,6 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "BethesdaMobileXamarin.Android.dll" comes first in this list. */
 		"BethesdaMobileXamarin.Android.dll",
 		"BethesdaMobileXamarin.dll",
-		"DLToolkit.Forms.Controls.FlowListView.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
 		"Rg.Plugins.Popup.dll",

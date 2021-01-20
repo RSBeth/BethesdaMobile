@@ -70,7 +70,7 @@ namespace BethesdaMobileXamarin.Registration
             _kodeKLinik = "";
             _namaKlinik = "";
             txtKlinik.Text = "";
-            await Navigation.PushModalAsync(new KlinikPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToString()));
+            await Navigation.PushAsync(new KlinikPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToString()));
             
           
         }
@@ -81,7 +81,7 @@ namespace BethesdaMobileXamarin.Registration
             _namaDokter = "";
             txtDokter.Text = "";
          
-            await Navigation.PushModalAsync(new DokterPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToString()));
+            await Navigation.PushAsync(new DokterPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToString()));
         }
 
         private async void btnDaftar_Clicked(object sender, EventArgs e)
@@ -105,7 +105,7 @@ namespace BethesdaMobileXamarin.Registration
                 return;
             }
             await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Info", "Apakah Anda Yakin Mendaftar? "));
-            return;
+           
         }
 
         private async Task<HolidayDate> GetHolidayDateTask(string tglRegis)

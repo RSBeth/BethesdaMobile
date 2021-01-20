@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:utility="clr-namespace:BethesdaMobileXamarin.Utility"
              mc:Ignorable="d"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
              x:Class="BethesdaMobileXamarin.Registration.RegistrationForm">
     <ContentPage.Content>
         <ScrollView Orientation="Vertical" >

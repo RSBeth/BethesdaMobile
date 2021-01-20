@@ -17,12 +17,12 @@ namespace BethesdaMobileXamarin.Room {
     public partial class EmptyRoomForm : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::DLToolkit.Forms.Controls.FlowListView FlView;
+        private global::Xamarin.Forms.CollectionView listKamarKosong;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(EmptyRoomForm));
-            FlView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::DLToolkit.Forms.Controls.FlowListView>(this, "FlView");
+            listKamarKosong = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.CollectionView>(this, "listKamarKosong");
         }
     }
 }

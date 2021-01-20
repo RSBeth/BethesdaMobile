@@ -1,6 +1,5 @@
 ﻿using BethesdaMobileXamarin.Main;
-using BethesdaMobileXamarin.Registration;
-using DLToolkit.Forms.Controls;
+
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,7 +11,7 @@ namespace BethesdaMobileXamarin
         public App()
         {
             InitializeComponent();
-            FlowListView.Init();
+           
             MainPage = new NavigationPage(new IntroPage());
 
 

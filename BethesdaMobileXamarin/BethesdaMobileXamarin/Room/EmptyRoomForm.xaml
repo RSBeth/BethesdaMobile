@@ -3,41 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"   xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
-             x:Class="BethesdaMobileXamarin.Room.EmptyRoomForm">
-    <ContentPage.Content>
-        <StackLayout Padding="10">
-            <flv:FlowListView FlowColumnCount="3" 
-                SeparatorVisibility="Default"  x:Name="FlView" 
-                HasUnevenRows="True" 
-                FlowItemsSource="{Binding Items}">
+             mc:Ignorable="d" 
+            x:Class="BethesdaMobileXamarin.Room.EmptyRoomForm">
 
-                <flv:FlowListView.FlowColumnTemplate>
-                    <DataTemplate>
-                        <Frame BackgroundColor="GreenYellow"  Margin="5">
-                            <StackLayout>
-                                <Label HorizontalOptions="Fill" 
-                                     VerticalOptions="Fill" 
-                                      TextColor="White"
-                                      XAlign="Center"
-                                      YAlign="Center" 
-                                        Text="Hallo"/>
-                                <StackLayout>
-                                    <StackLayout>
-                                        <Label HorizontalOptions="Fill" 
-                                           VerticalOptions="Fill" 
-                                        TextColor="White"
-                                        XAlign="Center"
-                                        YAlign="Center" 
-                                           Text="OKEEE"/>
-                                    </StackLayout>
-                                </StackLayout>
-                            </StackLayout>
-
-                        </Frame>
-                    </DataTemplate>
-                </flv:FlowListView.FlowColumnTemplate>
-            </flv:FlowListView>
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  >
+        <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"  ></Image>
+        <StackLayout HorizontalOptions="CenterAndExpand">
+            <Label  Text="Informasi Ketersediaan Kamar"  FontSize="Subtitle"   VerticalTextAlignment="Center" ></Label>
         </StackLayout>
-    </ContentPage.Content>
+        <CollectionView x:Name="listKamarKosong">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
+                        Span="2" />
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame WidthRequest="40" HeightRequest="70" HasShadow="True"  
+                               VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Style="{StaticResource DefaultFrame}" BackgroundColor="BurlyWood"  Padding="10">
+                        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                            <Label  Text="{Binding NamaKelas}"  FontSize="Large"  VerticalTextAlignment="Center" TextColor="Blue" FontAttributes="Bold" ></Label>
+                            <Label  Text="{Binding KamarKosong}" WidthRequest="120" HorizontalTextAlignment="Center"  
+                                       VerticalTextAlignment="Center" FontFamily="Samantha" FontSize="Medium" TextColor="Black" ></Label>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
 </ContentPage>

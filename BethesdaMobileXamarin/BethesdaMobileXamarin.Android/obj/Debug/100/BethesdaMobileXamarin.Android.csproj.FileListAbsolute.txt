@@ -97,7 +97,6 @@ D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXama
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\BethesdaMobileXamarin.Android.pdb
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\BethesdaMobileXamarin.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\BethesdaMobileXamarin.pdb
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\DLToolkit.Forms.Controls.FlowListView.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\FormsViewGroup.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\FormsViewGroup.pdb
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\Java.Interop.dll
@@ -117,7 +116,6 @@ D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXama
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\SQLitePCLRaw.lib.e_sqlite3.android.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Buffers.dll
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Collections.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.ComponentModel.Composition.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.ComponentModel.Composition.pdb
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Core.dll
@@ -126,7 +124,6 @@ D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXama
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Data.DataSetExtensions.pdb
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Data.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Data.pdb
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Diagnostics.Debug.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Drawing.Common.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Drawing.Common.pdb
@@ -134,7 +131,6 @@ D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXama
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.IO.Compression.FileSystem.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.IO.Compression.FileSystem.pdb
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.IO.Compression.pdb
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Linq.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Memory.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Net.Http.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Net.Http.pdb
@@ -142,20 +138,13 @@ D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXama
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Numerics.pdb
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Numerics.Vectors.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Numerics.Vectors.pdb
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.ObjectModel.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.pdb
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Reflection.dll
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Reflection.Extensions.dll
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Resources.ResourceManager.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Runtime.CompilerServices.Unsafe.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Runtime.dll
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Runtime.Extensions.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Runtime.Serialization.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Runtime.Serialization.pdb
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.ServiceModel.Internals.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.ServiceModel.Internals.pdb
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Threading.dll
-D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Threading.Tasks.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Transactions.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Transactions.pdb
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.Android\obj\Debug\100\android\assets\System.Web.Services.dll
