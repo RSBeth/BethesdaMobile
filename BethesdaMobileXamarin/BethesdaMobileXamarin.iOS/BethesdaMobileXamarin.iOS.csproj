@@ -68,6 +68,7 @@
   <ItemGroup>
     <Compile Include="CustomNaviPageRenderer.cs" />
     <Compile Include="CustomPageRenderer.cs" />
+    <Compile Include="DialogAlertPageRenderer.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
