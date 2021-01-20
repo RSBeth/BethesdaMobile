@@ -13,7 +13,7 @@
 namespace BethesdaMobileXamarin.Utility {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Utility\\DialogAlertCustom.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Utility/DialogAlertCustom.xaml")]
     public partial class DialogAlertCustom : global::Rg.Plugins.Popup.Pages.PopupPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

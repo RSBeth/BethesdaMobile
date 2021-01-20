@@ -13,7 +13,7 @@
 namespace BethesdaMobileXamarin.Registration {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Registration\\DokterPickerForm.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Registration/DokterPickerForm.xaml")]
     public partial class DokterPickerForm : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
