@@ -11,7 +11,7 @@
         <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"  ></Image>
         <CollectionView x:Name="KoleksiMenu">
             <CollectionView.ItemsLayout>
-                <GridItemsLayout Orientation="Vertical"
+                <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="7" HorizontalItemSpacing="7"
                         Span="2" />
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>

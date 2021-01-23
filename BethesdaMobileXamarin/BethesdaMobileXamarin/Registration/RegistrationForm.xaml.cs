@@ -94,14 +94,15 @@ namespace BethesdaMobileXamarin.Registration
                 return;
 
             }
-            if ((txtDokter.Text.Length == 0) || (_kodeDokter == ""))
-            {
-                await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Dokter Belum dipilih!!"));
-                return;
-            }
-            if ((txtKlinik.Text.Length == 0) || (_kodeKLinik == ""))
+           
+            if ((txtKlinik.Text == "") || (_kodeKLinik == ""))
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Klinik Belum Dipilih!!"));
+                return;
+            }
+            if ((txtDokter.Text == "") || (_kodeDokter == ""))
+            {
+                await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Dokter Belum dipilih!!"));
                 return;
             }
             await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Info", "Apakah Anda Yakin Mendaftar? "));

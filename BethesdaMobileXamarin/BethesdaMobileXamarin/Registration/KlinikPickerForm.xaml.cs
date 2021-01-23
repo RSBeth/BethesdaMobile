@@ -26,12 +26,14 @@ namespace BethesdaMobileXamarin.Registration
         private DataBaseUtil dataBaseUtil;
         private List<Klinik> kliniks;
         private KlinikServices klinikServices;
+
         public KlinikPickerForm()
         {
             InitializeComponent();
             klinikServices = new KlinikServices();
             dataBaseUtil = new DataBaseUtil();
             kliniks =  new List<Klinik>();
+            
         }
 
         public KlinikPickerForm(string kodeKlinik, string namaKlinik, string kodeDokter, string namaDokter,String tglReg)

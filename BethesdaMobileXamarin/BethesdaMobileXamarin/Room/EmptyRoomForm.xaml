@@ -13,17 +13,17 @@
         </StackLayout>
         <CollectionView x:Name="listKamarKosong">
             <CollectionView.ItemsLayout>
-                <GridItemsLayout Orientation="Vertical"
-                        Span="2" />
+                <GridItemsLayout Orientation="Vertical"  VerticalItemSpacing="10" HorizontalItemSpacing="7"
+                        Span="3" />
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Frame WidthRequest="40" HeightRequest="70" HasShadow="True"  
-                               VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Style="{StaticResource DefaultFrame}" BackgroundColor="BurlyWood"  Padding="10">
+                               VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Style="{StaticResource DefaultFrame}"  Padding="10">
                         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                            <Label  Text="{Binding NamaKelas}"  FontSize="Large"  VerticalTextAlignment="Center" TextColor="Blue" FontAttributes="Bold" ></Label>
+                            <Label  Text="{Binding NamaKelas}"  FontSize="Medium"  VerticalTextAlignment="Center" TextColor="Blue" FontAttributes="Bold" ></Label>
                             <Label  Text="{Binding KamarKosong}" WidthRequest="120" HorizontalTextAlignment="Center"  
-                                       VerticalTextAlignment="Center" FontFamily="Samantha" FontSize="Medium" TextColor="Black" ></Label>
+                                       VerticalTextAlignment="Center" FontFamily="Samantha" FontSize="Small" TextColor="Black" ></Label>
                         </StackLayout>
                     </Frame>
                 </DataTemplate>

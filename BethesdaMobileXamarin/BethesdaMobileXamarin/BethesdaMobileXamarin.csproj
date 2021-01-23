@@ -44,6 +44,9 @@
     <Compile Update="Login\LoginForm.xaml.cs">
       <DependentUpon>LoginForm.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Schedule\KlinikSchedulePickerForm.xaml.cs">
+      <DependentUpon>KlinikSchedulePickerForm.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -66,6 +69,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Room\EmptyRoomForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Schedule\DokterSchedulePickerForm.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Schedule\ScheduleMain.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Utility\DialogAlertCustom.xaml">

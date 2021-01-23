@@ -13,7 +13,7 @@
 namespace BethesdaMobileXamarin.Main {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Main/MainMenu.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Main\\MainMenu.xaml")]
     public partial class MainMenu : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

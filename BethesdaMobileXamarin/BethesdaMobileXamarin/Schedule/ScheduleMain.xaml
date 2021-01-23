@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:BethesdaMobileXamarin.Schedule"
+            mc:Ignorable="d"
+             x:Class="BethesdaMobileXamarin.Schedule.ScheduleMain">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Jadwal Klinik" x:Name="TabKlinik" >
+
+        <StackLayout>
+            <StackLayout Spacing="1">
+                <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"  ></Image>
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <Label  Text="Jadwal Dokter Per Klinik"  FontSize="Subtitle"   VerticalTextAlignment="Center" ></Label>
+                </StackLayout>
+                <Entry x:Name="txtKlinik" Placeholder="Pilih Klinik" FontSize="Small"  Focused="txtKlinik_Focused" > 
+                </Entry>
+            </StackLayout>
+            <StackLayout Spacing="1">
+                  <Button x:Name="btnCariJadwalKlinik" HorizontalOptions="Center" BackgroundColor="Aqua" Text="CARI" Clicked="btnCariJadwalKlinik_Clicked"  ></Button>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <CollectionView x:Name="listJadwalKlnik">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical"
+                                          VerticalItemSpacing="6"  HorizontalItemSpacing="7"
+                        Span="1" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame WidthRequest="40" HeightRequest="70" HasShadow="True"  
+                               VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Style="{StaticResource DefaultFrame}"  Padding="10">
+                                <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                                    <Label  Text="{Binding NamaDokter,StringFormat='Dokter : {0} '}"  FontSize="Small"  VerticalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" ></Label>
+                                    <Label  Text="{Binding hari,StringFormat='Hari :  {0} '}" WidthRequest="120" 
+                                       VerticalTextAlignment="Center" FontFamily="Samantha" FontSize="Small" TextColor="Black" ></Label>
+                                    <Label  Text="{Binding jam_full,StringFormat='Jam : {0} '}" WidthRequest="120" 
+                                       VerticalTextAlignment="Center" FontFamily="Samantha" FontSize="Small" TextColor="Black" ></Label>
+
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Jadwal Dokter"  x:Name="TabDokter">
+
+        <StackLayout>
+            <StackLayout Spacing="1">
+                <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"  ></Image>
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <Label  Text="Jadwal Dokter "  FontSize="Subtitle"   VerticalTextAlignment="Center" ></Label>
+                </StackLayout>
+                <Entry x:Name="txtDokter" Placeholder="Pilih Dokter" FontSize="Small"  Focused="txtDokter_Focused" >
+                </Entry>
+            </StackLayout>
+            <StackLayout Spacing="1">
+                <Button x:Name="btnCariJadwalDokter" HorizontalOptions="Center" BackgroundColor="Aqua" Text="CARI" Clicked="btnCariJadwalDokter_Clicked"  ></Button>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <CollectionView x:Name="listJadwalDokter">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical"
+                                          VerticalItemSpacing="6"  HorizontalItemSpacing="7"
+                        Span="1" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame WidthRequest="40" HeightRequest="70" HasShadow="True"  
+                               VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Style="{StaticResource DefaultFrame}"  Padding="10">
+                                <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                                    <Label  Text="{Binding Namaklinik,StringFormat='Klinik : {0} '}"  FontSize="Small"  VerticalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" ></Label>
+                                    <Label  Text="{Binding hari,StringFormat='Hari :  {0} '}" WidthRequest="120" 
+                                       VerticalTextAlignment="Center" FontFamily="Samantha" FontSize="Small" TextColor="Black" ></Label>
+                                    <Label  Text="{Binding jam_full,StringFormat='Jam : {0} '}" WidthRequest="120" 
+                                       VerticalTextAlignment="Center" FontFamily="Samantha" FontSize="Small" TextColor="Black" ></Label>
+
+                                </StackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage>
+
+
+</TabbedPage>

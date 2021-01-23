@@ -110,6 +110,9 @@ D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXama
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\KlinikPickerForm.xaml.g.cs
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\RegistrationForm.xaml.g.cs
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Room\EmptyRoomForm.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Schedule\DokterSchedulePickerForm.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Schedule\KlinikSchedulePickerForm.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Schedule\ScheduleMain.xaml.g.cs
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Utility\DialogAlertCustom.xaml.g.cs
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.AssemblyInfoInputs.cache
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.AssemblyInfo.cs

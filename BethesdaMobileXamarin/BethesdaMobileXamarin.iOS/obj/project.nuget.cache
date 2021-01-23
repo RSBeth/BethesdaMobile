@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "5I+YeBLHBJgvMzoDZu7AmM6kG5aG8QzPQu3Gx3UojAtt8razBh9YNG8RNva7vQWNZvyQKibiEnn0NHrKLZG+Uw==",
+  "dgSpecHash": "wABVGKAGOIqc7xgqF6umWztNmg2ngg88KCSKkxlfvuMrtGqho7cyMlZH9OBbW82TPRQC+wxy8YaGe76KDTcZpQ==",
   "success": true,
-  "projectFilePath": "/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile IOS/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/BethesdaMobileXamarin.iOS.csproj",
+  "projectFilePath": "D:\\Mobile Project\\BethesdaMobileXamarin\\BethesdaMobileXamarin\\BethesdaMobileXamarin.iOS\\BethesdaMobileXamarin.iOS.csproj",
   "expectedPackageFiles": [
-    "/Users/itbethesda/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/rg.plugins.popup/2.0.0.9/rg.plugins.popup.2.0.0.9.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/xamarin.essentials/1.6.0/xamarin.essentials.1.6.0.nupkg.sha512",
-    "/Users/itbethesda/.nuget/packages/xamarin.forms/5.0.0.1874/xamarin.forms.5.0.0.1874.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\rg.plugins.popup\\2.0.0.9\\rg.plugins.popup.2.0.0.9.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.essentials\\1.6.0\\xamarin.essentials.1.6.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\xamarin.forms\\5.0.0.1874\\xamarin.forms.5.0.0.1874.nupkg.sha512"
   ],
   "logs": []
 }

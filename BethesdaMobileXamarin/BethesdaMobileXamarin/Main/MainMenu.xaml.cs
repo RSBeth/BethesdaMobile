@@ -1,6 +1,7 @@
 ﻿using BethesdaMobileXamarin.Main.model;
 using BethesdaMobileXamarin.Registration;
 using BethesdaMobileXamarin.Room;
+using BethesdaMobileXamarin.Schedule;
 using BethesdaMobileXamarin.Utility;
 using Rg.Plugins.Popup.Services;
 using System;
@@ -37,9 +38,9 @@ namespace BethesdaMobileXamarin.Main
             new MenuModel(){Menuid=2 ,Title ="Riwayat Pendaftaran Online" ,ImageSource="stetoskop.jpg"},
             new MenuModel(){Menuid=3 ,Title ="Jadwal Dokter" ,ImageSource="doctor.png"},
             new MenuModel(){Menuid=4 ,Title ="Informasi Kamar" ,ImageSource="bed.jpg"},
-            new MenuModel(){Menuid=5 ,Title ="Info Antrian Dokter" ,ImageSource="antri.png"},
-            new MenuModel(){Menuid=6 ,Title ="Tracking Resep Farmasi" ,ImageSource="farmasi.png"},
-            new MenuModel(){Menuid=7 ,Title ="Telemedicine" ,ImageSource="telemedecine.png"}
+         //   new MenuModel(){Menuid=5 ,Title ="Info Antrian Dokter" ,ImageSource="antri.png"},
+          //  new MenuModel(){Menuid=6 ,Title ="Tracking Resep Farmasi" ,ImageSource="farmasi.png"},
+           // new MenuModel(){Menuid=7 ,Title ="Telemedicine" ,ImageSource="telemedecine.png"}
 
 
 
@@ -57,18 +58,24 @@ namespace BethesdaMobileXamarin.Main
             {
                 await Navigation.PushAsync(new LoginForm());
 
+                
+
+            }
+            if (id == 3)
+            {
+                await Navigation.PushAsync(new ScheduleMain());
+
                 //}
 
                 //            MaterialCardmaterialCard = (MaterialCard)sender;
 
             }
+
             if (id == 4)
             {
                 await Navigation.PushAsync(new EmptyRoomForm());
 
-                //}
-
-                //            MaterialCardmaterialCard = (MaterialCard)sender;
+             
 
             }
 
