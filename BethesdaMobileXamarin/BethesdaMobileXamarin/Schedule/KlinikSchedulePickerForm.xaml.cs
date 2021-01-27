@@ -58,7 +58,14 @@ namespace BethesdaMobileXamarin.Schedule
             var itemClicked = (Klinik)e.Item;
             string kodeKLinik = itemClicked.KodeKlinik;
             string namaKlinik = itemClicked.NamaKlinik;
-            await Navigation.PushAsync(new ScheduleMain(kodeKLinik,namaKlinik,"klinik"));
+            App.KodeKlinikSchedule = kodeKLinik;
+            App.KlinikNamaSchedule = namaKlinik;
+            await Navigation.PopModalAsync();
+        }
+
+        private async void btnCLoseModal_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
         }
     }
 }

@@ -31,7 +31,13 @@ namespace BethesdaMobileXamarin.Registration
             InitializeComponent();
             dataBaseUtil = new DataBaseUtil();
             dokters = new List<Dokter>();
+     
+
+
+
         }
+
+     
 
         public DokterPickerForm(string kodeKlinik, string namaKlinik, string kodeDokter, string namaDokter,String tglReg)
         {
@@ -49,6 +55,7 @@ namespace BethesdaMobileXamarin.Registration
 
         {
             base.OnAppearing();
+
             if (_kodeKLinik.Length > 0)
             {
                 dokters = await dokterServices.GetDokterByKlinik(_kodeKLinik, _tglReg);
@@ -59,6 +66,7 @@ namespace BethesdaMobileXamarin.Registration
             }
 
             lvDokter.ItemsSource = dokters;
+         
 
         }
 
@@ -80,6 +88,8 @@ namespace BethesdaMobileXamarin.Registration
             var itemClicked = (Dokter)e.Item;
             _kodeDokter = itemClicked.NID;
             _namaDokter = itemClicked.NamaDokter;
+            App.KodeDokterRegis = _kodeDokter;
+            App.DokterNamaRegis = _namaDokter;
             if (itemClicked.praktek == "false")
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Informasi", itemClicked.response));
@@ -87,8 +97,14 @@ namespace BethesdaMobileXamarin.Registration
             }
             else
             {
-                await Navigation.PushAsync(new RegistrationForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter,_tglReg));
+                await Navigation.PopModalAsync();
+                //    await Navigation.PushAsync(new RegistrationForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter,_tglReg));
             }
+        }
+
+        private async void btnCLoseModal_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
         }
     }
 }

@@ -32,7 +32,18 @@ namespace BethesdaMobileXamarin
         {
             get; set;
         }
+        public static bool IsUserLoggedIn { get; internal set; }
+        public static string KodeKlinikRegis { get; internal set; }
+        public static string KlinikNamaRegis { get; internal set; }
 
+        public static string KodeDokterRegis { get; internal set; }
+        public static string DokterNamaRegis { get; internal set; }
+
+        public static string KodeKlinikSchedule{ get; internal set; }
+        public static string KlinikNamaSchedule { get; internal set; }
+
+        public static string KodeDokterSchedule { get; internal set; }
+        public static string DokterNamaSchedule { get; internal set; }
 
     }
 }

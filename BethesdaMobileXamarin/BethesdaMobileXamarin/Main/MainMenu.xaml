@@ -9,6 +9,11 @@
 
     <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  >
         <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"  ></Image>
+        <StackLayout HorizontalOptions="EndAndExpand" Orientation="Horizontal">
+
+            <Label Text="Logout  " x:Name="lblLogout" IsVisible="False" HorizontalOptions="End"></Label>
+        </StackLayout>
+        
         <CollectionView x:Name="KoleksiMenu">
             <CollectionView.ItemsLayout>
                 <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="7" HorizontalItemSpacing="7"

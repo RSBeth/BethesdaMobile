@@ -25,10 +25,17 @@ namespace BethesdaMobileXamarin.Main
         {
             InitializeComponent();
             loadMenu();
-         
+            NavigationPage.SetHasBackButton(this, false);
 
         }
-
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            if(App.IsUserLoggedIn)
+            {
+                lblLogout.IsVisible = true;
+            }
+        }
         private void loadMenu()
         {
 
@@ -54,9 +61,18 @@ namespace BethesdaMobileXamarin.Main
             Frame frameClicked = (Frame)sender;
             var item = (TapGestureRecognizer)frameClicked.GestureRecognizers[0];
             int id = (int)item.CommandParameter;
-            if (id == 1)
+            if (id == 1)  //menu login
             {
-                await Navigation.PushAsync(new LoginForm());
+                if (App.IsUserLoggedIn == true)
+                {
+
+                    await Navigation.PushAsync(new RegistrationForm());
+                }
+                else
+                {
+                    await Navigation.PushAsync(new LoginForm());
+                }
+           
 
                 
 
@@ -74,8 +90,6 @@ namespace BethesdaMobileXamarin.Main
             if (id == 4)
             {
                 await Navigation.PushAsync(new EmptyRoomForm());
-
-             
 
             }
 

@@ -4,11 +4,7 @@ using BethesdaMobileXamarin.Registration;
 using BethesdaMobileXamarin.Utility;
 using Rg.Plugins.Popup.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -40,11 +36,18 @@ namespace BethesdaMobileXamarin.Main
 
                 if ((tglLahir == txtPassword.Text) &&  (pasien.NoRM == txtNoRM.Text))
                     {
-
-                    await Navigation.PushAsync(new RegistrationForm());
+                    App.IsUserLoggedIn = true;
+                   
+                    Preferences.Set("noRM",pasien.NoRM);
+                    Preferences.Set("namaPasien", pasien.NamaPasien);
+                    Preferences.Set("tglLahir", pasien.dtgllahir);
+                    Preferences.Set("alamat", pasien.alamat);
+                    Navigation.InsertPageBefore(new RegistrationForm(), this);
+                    await Navigation.PopAsync();
                 }
                     else
                      {
+                    App.IsUserLoggedIn = false;
                     await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Gagal Login","Password Tidak Sesuai"));
                 }
             }

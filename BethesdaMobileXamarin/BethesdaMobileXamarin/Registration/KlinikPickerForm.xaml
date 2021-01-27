@@ -13,15 +13,19 @@
     </ContentPage.Resources>
     <ContentPage.Content>
 
-            <StackLayout>
-                <SearchBar Placeholder="Cari Klinik....." TextChanged="SearchBar_TextChanged"
+        <StackLayout >
+            <StackLayout Orientation="Horizontal" >
+                <SearchBar Placeholder="Cari Klinik..." TextChanged="SearchBar_TextChanged"
            CancelButtonColor="Orange"
            PlaceholderColor="Orange"
-           TextColor="Orange"
+           TextColor="Orange" 
            HorizontalTextAlignment="Center"
            FontSize="Medium"
+           x:Name="searchDokter"
            FontAttributes="Italic" />
-                <ListView x:Name="lvKlinik" ItemTapped="lvKlinik_ItemTapped">
+                <Button  HorizontalOptions="Fill" Text="Close" Margin="10" CornerRadius="5" Padding="5,5,5,5"  x:Name="btnCLoseModal"  Clicked="btnCLoseModal_Clicked_1" BackgroundColor="#3079a8" TextColor="White" ></Button>
+            </StackLayout>
+            <ListView x:Name="lvKlinik" ItemTapped="lvKlinik_ItemTapped">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <TextCell Text="{Binding NamaKlinik}" TextColor="{Binding praktek , Converter={StaticResource ListViewColorConverter}}"/>

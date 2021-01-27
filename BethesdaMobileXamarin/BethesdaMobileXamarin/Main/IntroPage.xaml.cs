@@ -25,11 +25,15 @@ namespace BethesdaMobileXamarin.Main
         {
             InitializeComponent();
             dataBaseUtil = new DataBaseUtil();
+            App.IsUserLoggedIn = false;
+            Preferences.Clear();
+            ResetDataRegis();
         }
 
         protected async override void OnAppearing()
         {
             base.OnAppearing();
+
             await GetInsertDokterAll();
             await pbIntro.ProgressTo(0.2, 750, Easing.Linear);
             await GetInsertKlinikAll();
@@ -41,7 +45,17 @@ namespace BethesdaMobileXamarin.Main
             await Navigation.PushAsync(new MainMenu());
         }
 
-
+        private void ResetDataRegis()
+        {
+            App.KlinikNamaRegis = "";
+            App.KodeKlinikRegis = "";
+            App.DokterNamaRegis = "";
+            App.KodeDokterRegis = "";
+            App.KlinikNamaSchedule = "";
+            App.KodeKlinikSchedule = "";
+            App.DokterNamaSchedule = "";
+            App.KodeDokterSchedule = "";
+        }
 
         private async Task GetInsertDokterAll()
         {

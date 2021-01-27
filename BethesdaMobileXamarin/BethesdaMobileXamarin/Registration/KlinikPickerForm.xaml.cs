@@ -83,6 +83,8 @@ namespace BethesdaMobileXamarin.Registration
             var itemClicked = (Klinik)e.Item;
             _kodeKLinik = itemClicked.KodeKlinik;
             _namaKlinik = itemClicked.NamaKlinik;
+            App.KodeKlinikRegis = _kodeKLinik;
+            App.KlinikNamaRegis = _namaKlinik;
             if (itemClicked.praktek == "false")
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Informasi", itemClicked.response));
@@ -90,9 +92,23 @@ namespace BethesdaMobileXamarin.Registration
             }
             else
             {
-                await Navigation.PushAsync(new RegistrationForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter,_tglreg));
+                // await Navigation.PopAsync();
+                
+                
+                await Navigation.PopModalAsync();
+                //  await Navigation.PushAsync(new RegistrationForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter,_tglreg));
             }
            
+        }
+
+        private async void btnCLoseModal_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
+
+        private async void btnCLoseModal_Clicked_1(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
         }
     }
 }

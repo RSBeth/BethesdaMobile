@@ -1,4 +1,5 @@
-﻿using BethesdaMobileXamarin.Registration.Model;
+﻿using BethesdaMobileXamarin.Main;
+using BethesdaMobileXamarin.Registration.Model;
 using BethesdaMobileXamarin.Registration.Services;
 using BethesdaMobileXamarin.Utility;
 using Rg.Plugins.Popup.Services;
@@ -14,24 +15,38 @@ namespace BethesdaMobileXamarin.Registration
     public partial class RegistrationForm : ContentPage
     {
 
-        private string _kodeKLinik;
-        private string _namaKlinik;
-        private string _kodeDokter;
-        private string _namaDokter;
+        private Registrations registration;
         private HolidayDate holidayDate;
         private DateUtil dateUtil;
+        private RegistrationServices registrationServices;
+        private RegistrationResults registrationResults;
         public RegistrationForm()
         {
             InitializeComponent();
             dateUtil= new DateUtil();
             holidayDate = new HolidayDate();
-            _kodeKLinik = "";
-            _namaKlinik = "";
-            _kodeDokter = "";
-            _namaDokter = "";
-          // setDatePickerValue();
+            
+            setDatePickerValue();
+            setDataPasien();
+          
+
         }
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            setDatePickerValue();
+            setDataPasien();
+            txtKlinik.Text = App.KlinikNamaRegis;
+            txtDokter.Text = App.DokterNamaRegis;
+        }
+        private void setDataPasien()
+        {
+            lblNoRM.Text =  Preferences.Get("noRM","");
+            lblNama.Text =   Preferences.Get("namaPasien","");
+            lblTglLahir.Text =  Preferences.Get("tglLahir", "");
+            lblAlamat.Text  = Preferences.Get("alamat", "");
+        }
         private void setDatePickerValue()
         {
             //dtTglPeriksa.NullableDate = null;
@@ -42,46 +57,31 @@ namespace BethesdaMobileXamarin.Registration
             DateTime current_date = DateUtil.ConvertStringToDate(currentDate, "dd/MM/yyyy");
             dtTglPeriksa.MinimumDate = current_date;
             dtTglPeriksa.MaximumDate = current_date.AddDays(Double.Parse(maxHari)-1);
-          
+            
         }
+      
 
-        public RegistrationForm(string kodeKlinik, string namaKlinik, string kodeDokter, string namaDokter,string dateSelected)
-        {
-            InitializeComponent();
-          ;
-            _kodeKLinik = kodeKlinik;
-            _namaKlinik = namaKlinik;
-            _kodeDokter = kodeDokter;
-            _namaDokter = namaDokter;
-            txtDokter.Text = _namaDokter;
-            txtKlinik.Text = _namaKlinik;
+     
 
-            dtTglPeriksa.Date = DateTime.Parse(dateSelected);
-          //  setDatePickerValue();
-        }
-
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-
-        }
+       
         private async void txtKlinik_Focused(object sender, FocusEventArgs e)
             {
-            _kodeKLinik = "";
-            _namaKlinik = "";
+            App.KodeKlinikRegis = "";
+            App.KlinikNamaRegis = "";
             txtKlinik.Text = "";
-            await Navigation.PushAsync(new KlinikPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToString()));
-            
-          
+            await Navigation.PushModalAsync(new KlinikPickerForm(App.KodeKlinikRegis, App.KlinikNamaRegis,App.KodeDokterRegis , App.DokterNamaRegis, dtTglPeriksa.Date.ToString()));
+            // await Navigation.PushAsync(new KlinikPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToString()));
+
+
         }
 
         private async void txtDokter_Focused(object sender, FocusEventArgs e)
         {
-            _kodeDokter = "";
-            _namaDokter = "";
+            App.KodeDokterRegis = "";
+            App.DokterNamaRegis = "";
             txtDokter.Text = "";
          
-            await Navigation.PushAsync(new DokterPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToString()));
+            await Navigation.PushModalAsync(new DokterPickerForm(App.KodeKlinikRegis, App.KlinikNamaRegis, App.KodeDokterRegis, App.DokterNamaRegis, dtTglPeriksa.Date.ToString()));
         }
 
         private async void btnDaftar_Clicked(object sender, EventArgs e)
@@ -95,18 +95,48 @@ namespace BethesdaMobileXamarin.Registration
 
             }
            
-            if ((txtKlinik.Text == "") || (_kodeKLinik == ""))
+            if ((txtKlinik.Text == "") || (App.KodeKlinikRegis == ""))
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Klinik Belum Dipilih!!"));
                 return;
             }
-            if ((txtDokter.Text == "") || (_kodeDokter == ""))
+            if ((txtDokter.Text == "") || (App.KodeDokterRegis == ""))
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Dokter Belum dipilih!!"));
                 return;
             }
-            await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Info", "Apakah Anda Yakin Mendaftar? "));
-           
+            string textKonfirmasi = "Apakah Anda Yakin Mendaftar Pada Tgl: " + dtTglPeriksa.Date.ToShortDateString().Trim() + " , Klinik : " + txtKlinik.Text.Trim() + ", Dokter : " + txtDokter.Text.Trim(); 
+            bool answer = await DisplayAlert("Konfirmasi", textKonfirmasi, "Yes", "Cancel");
+            if(answer)
+            {
+                doRegistration();
+            }    
+        }
+
+        private async void doRegistration()
+        {
+            registration= new Registrations();
+            registrationServices = new RegistrationServices();
+            registration.norm = Preferences.Get("noRM", "");
+            registration.tglreg = dtTglPeriksa.Date.ToShortDateString();
+            registration.kodedokter = App.KodeDokterRegis;
+            registration.kodeklinik = App.KodeKlinikRegis;
+            try
+            {
+              registrationResults = new RegistrationResults();
+                registrationResults = await registrationServices.postRegistration(registration);
+            }
+            catch(Exception ex)
+            {
+                await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Error", ex.Message));
+            }
+            if (registrationResults.response.ToString() =="gagal")
+            {
+                await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", registrationResults.deskripsiresponse));
+            }
+            else{
+                await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Sukses", registrationResults.deskripsiresponse));
+            }
         }
 
         private async Task<HolidayDate> GetHolidayDateTask(string tglRegis)
@@ -122,8 +152,8 @@ namespace BethesdaMobileXamarin.Registration
 
         private void dtTglPeriksa_Focused(object sender, FocusEventArgs e)
         {
-            _kodeDokter = "";
-            _namaDokter = "";
+            App.KodeDokterRegis = "";
+            App.DokterNamaRegis = "";
             txtDokter.Text = "";
            
         }

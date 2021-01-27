@@ -15,56 +15,39 @@ namespace BethesdaMobileXamarin.Schedule
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ScheduleMain : TabbedPage
-    {   string _klinikId  ;
-        string _klinikName;
-        string _dokterId;
-        string _dokterName;
+    {  
         private KlinikSchedule klinikSchedule;
         private DokterSchedule dokterSchedule;
         public ScheduleMain()
         {
             InitializeComponent();
-            _klinikId = "";
-            _dokterId = "";
             klinikSchedule = new KlinikSchedule();
             dokterSchedule = new DokterSchedule();
-        }
-        public ScheduleMain(string kode,string nama,string type)
-        {
-            InitializeComponent();
-            klinikSchedule = new KlinikSchedule();
-            dokterSchedule = new DokterSchedule();
-            _klinikId = "";
-            _dokterId = "";
-            if (type == "klinik")
-            {
-                _klinikId = kode;
-                _klinikName = nama;
-                txtKlinik.Text = nama;
-                CurrentPage = TabKlinik;
-            }
-            else
-            {
-                _dokterId = kode;
-                _dokterName = nama;
-                txtDokter.Text = nama;
-                CurrentPage = TabDokter;
-            }
          
         }
-     
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            txtKlinik.Text = App.KlinikNamaSchedule;
+            txtDokter.Text = App.DokterNamaSchedule;
+        }
 
         private async void txtKlinik_Focused(object sender, FocusEventArgs e)
         {
               txtKlinik.Text = "";
-               await Navigation.PushAsync(new KlinikSchedulePickerForm());
+            App.KlinikNamaSchedule = "";
+            App.KodeKlinikSchedule = "";
+            listJadwalKlnik.ItemsSource = null;
+            await Navigation.PushModalAsync(new KlinikSchedulePickerForm());
+                
 
         }
 
         private async void btnCariJadwalKlinik_Clicked(object sender, EventArgs e)
         {
            
-            if ((txtKlinik.Text== "") || (_klinikId == ""))
+            if ((txtKlinik.Text== "") || (App.KodeKlinikSchedule == ""))
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Klinik Belum Dipilih"));
                 return;
@@ -76,7 +59,12 @@ namespace BethesdaMobileXamarin.Schedule
         {
             ScheduleServices scheduleServices = new ScheduleServices();
             List<KlinikSchedule> listKlinikSchedule = new List<KlinikSchedule>();
-            listKlinikSchedule = await scheduleServices.GetKlinikSchedule(_klinikId);
+            listKlinikSchedule = await scheduleServices.GetKlinikSchedule(App.KodeKlinikSchedule);
+            if (listKlinikSchedule.Count == 0)
+            {
+                await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Jadwal Dokter Klinik Tidak Ditemukan"));
+                return;
+            }
             foreach (KlinikSchedule klinik in listKlinikSchedule)
             {
              //   klinik.NamaDokter = "Dokter :" + klinik.NamaDokter;
@@ -91,12 +79,16 @@ namespace BethesdaMobileXamarin.Schedule
         private async void txtDokter_Focused(object sender, FocusEventArgs e)
         {
             txtDokter.Text = "";
-            await Navigation.PushAsync(new DokterSchedulePickerForm());
+           
+            App.DokterNamaSchedule = "";
+            App.KodeDokterSchedule = "";
+            listJadwalDokter.ItemsSource = null;
+            await Navigation.PushModalAsync(new DokterSchedulePickerForm());
         }
 
         private async void btnCariJadwalDokter_Clicked(object sender, EventArgs e)
         {
-            if ((txtDokter.Text == "") || (_dokterId == ""))
+            if ((txtDokter.Text == "") || (App.KodeDokterSchedule == ""))
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Dokter Belum Dipilih"));
                 return;
@@ -108,13 +100,19 @@ namespace BethesdaMobileXamarin.Schedule
         {
             ScheduleServices scheduleServices = new ScheduleServices();
             List<DokterSchedule> listDokterSchedule = new List<DokterSchedule>();
-            listDokterSchedule = await scheduleServices.GetDokterkSchedule(_dokterId);
-            foreach (DokterSchedule dokter in listDokterSchedule)
+            listDokterSchedule = await scheduleServices.GetDokterkSchedule(App.KodeDokterSchedule);
+            if (listDokterSchedule.Count == 0)
+            {
+                await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Jadwal Dokter Tidak Ditemukan"));
+                return;
+            }
+                foreach (DokterSchedule dokter in listDokterSchedule)
             {
                 //   klinik.NamaDokter = "Dokter :" + klinik.NamaDokter;
                 //  klinik.hari = "Hari : " + klinik.hari;
                dokter.jam_full = dokter.jam_dari + " s/d " + dokter.jam_selesai;
             }
+          
             listJadwalDokter.ItemsSource = listDokterSchedule;
 
 

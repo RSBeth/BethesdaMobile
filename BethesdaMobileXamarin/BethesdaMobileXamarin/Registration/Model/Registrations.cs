@@ -11,7 +11,5 @@ namespace BethesdaMobileXamarin.Registration.Model
         public string kodedokter { get; set; }
 
         public string tglreg { get; set; }
-
-
     }
 }
