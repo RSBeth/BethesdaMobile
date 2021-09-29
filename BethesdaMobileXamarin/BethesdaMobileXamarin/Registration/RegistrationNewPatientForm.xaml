@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+             x:Class="BethesdaMobileXamarin.Registration.RegistrationNewPatientForm" >
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" >
+
+            <StackLayout Spacing="15" Margin="10">
+                <StackLayout Orientation="Vertical">
+                    <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"></Image>
+                    <Label Text="{StaticResource TitlePendaftaranNewPatientOnline}" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+                <Frame  Style="{StaticResource DefaultFrame}" Padding="9">
+                    <StackLayout Spacing="0">
+                        <Label x:Name="lbl1" Text="No KTP/NIK" HorizontalTextAlignment="Start" 
+                           TextColor="Black" FontSize="Small"></Label>
+                        <Label x:Name="lblNoKTP" Text="3404032828282821" HorizontalTextAlignment="Start" 
+                           TextColor="Brown" FontSize="Small"></Label>
+                        
+                    </StackLayout>
+                </Frame>
+
+                <Frame  Style="{StaticResource DefaultFrame}"  Padding="8">
+                    <StackLayout Spacing="0">
+                        <Label  Text="Tgl Periksa" HorizontalTextAlignment="Center" 
+                           TextColor="Black" FontSize="Small"></Label>
+                        <BoxView Color="Gray"
+                                 HeightRequest="2"
+                                 HorizontalOptions="Fill" />
+                        <DatePicker x:Name="dtTglPeriksa"   Format="dd-MMM-yyyy"    FontSize="Small"    ></DatePicker>
+                    </StackLayout>
+                </Frame>
+
+                <Frame  Style="{StaticResource DefaultFrame}"  Padding="8">
+                    <StackLayout Spacing="0">
+                        <Label Text="Klinik" HorizontalTextAlignment="Center" 
+                           TextColor="Black" FontSize="Small"></Label>
+                        <BoxView Color="Gray"
+                                 HeightRequest="2"
+                                 HorizontalOptions="Fill" />
+                        <Entry x:Name="txtKlinik" Placeholder="Pilih Klinik Tujuan" FontSize="Small" >
+                        </Entry>
+                    </StackLayout>
+                </Frame>
+              
+
+                <Frame  Style="{StaticResource DefaultFrame}"  Padding="8">
+                    <StackLayout Spacing="0">
+                        <Label  Text="Dokter" HorizontalTextAlignment="Center" 
+                           TextColor="Black" FontSize="Small"></Label>
+                        <BoxView Color="Gray"
+                                 HeightRequest="2"
+                                 HorizontalOptions="Fill" />
+                        <Entry x:Name="txtDokter" Placeholder="Pilih Dokter" FontSize="Small" ></Entry>
+                     </StackLayout>
+                </Frame>
+
+                <Frame  Style="{StaticResource DefaultFrame}"  Padding="8">
+                    <StackLayout Spacing="0">
+                        <Label  Text="Upload KTP" HorizontalTextAlignment="Center" 
+                           TextColor="Black" FontSize="Small"></Label>
+                        <Image x:Name="resultImage" Source="id.png" WidthRequest="120" HeightRequest="100" ></Image>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="10">
+                            <material:MaterialButton  Text="Camera" Clicked="Button_Clicked_1"  TextColor="White"  BackgroundColor="#0069c0" />
+                            <material:MaterialButton  Text="Gallery" Clicked="Button_Clicked"   TextColor="White"  BackgroundColor="#aa00c7" />
+                        
+                        </StackLayout>
+                    </StackLayout>
+                    
+                </Frame>
+                <material:MaterialButton  Text="Selanjutnya" Clicked="Button_Clicked_2" TextColor="White"  BackgroundColor="#0069c0" />
+                <ScrollView>
+                   
+                </ScrollView>
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+
+</ContentPage>

@@ -89,7 +89,7 @@ namespace BethesdaMobileXamarin.Main
 
         private async Task GetCurrentDate()
         {
-            utilServices = new UtilServices();
+             utilServices = new UtilServices();
 
              string currentDate = await utilServices.GetCurrentDateServer();
              Preferences.Set("currentDate", currentDate);

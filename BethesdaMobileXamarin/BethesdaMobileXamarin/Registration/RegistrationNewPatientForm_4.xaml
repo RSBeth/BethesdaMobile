@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+             x:Class="BethesdaMobileXamarin.Registration.RegistrationNewPatientForm_4">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" >
+
+            <StackLayout Spacing="15" Margin="10">
+                <StackLayout Orientation="Vertical">
+                    <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"></Image>
+                    <Label Text="{StaticResource TitlePendaftaranNewPatientOnline}" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical"
+                     Margin="16">
+
+                    <material:MaterialTextField Placeholder="Propinsi"   
+                                                x:Name="txtPropinsi" ErrorText="Propinsi Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice" ChoiceSelected="txtPropinsi_ChoiceSelected"  Choices="{Binding ListPropinsi}" ChoicesBindingName="vc_propinsi"   />
+
+                    <material:MaterialTextField Placeholder="Kota/Kabupaten"   
+                                                x:Name="txtKabupaten" ErrorText="Kota/Kabupaten Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice" ChoiceSelected="txtKabupaten_ChoiceSelected"  Choices="{Binding ListKabupatens}" ChoicesBindingName="vc_kota"
+                                                />
+                    <material:MaterialTextField Placeholder="Kecamatan"   
+                                                x:Name="txtKecamatan" ErrorText="Kecamatan Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice" ChoiceSelected="txtKecamatan_ChoiceSelected"  Choices="{Binding ListKecamatans}" ChoicesBindingName="vc_kecamatan"
+                                                />
+                    <material:MaterialTextField Placeholder="Kelurahan"  x:Name="txtKelurahan" ErrorText="Kelurahan Harus Diisi" Text="" BackgroundColor="Transparent"  InputType="Default" />
+                    <material:MaterialTextField Placeholder="No Peserta BPJS(Jika Ada) "  x:Name="txtNoBpjs" Text="" BackgroundColor="Transparent"  InputType="Numeric" />
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" >
+                    <material:MaterialButton  Text="Kembali" Clicked="MaterialButton_Clicked"    TextColor="White"  BackgroundColor="#aa00c7" />
+                    <material:MaterialButton  Text="Daftar" TextColor="White" Clicked="MaterialButton_Clicked_1"  BackgroundColor="#0069c0"  />
+                </StackLayout>
+
+            </StackLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+
+</ContentPage>

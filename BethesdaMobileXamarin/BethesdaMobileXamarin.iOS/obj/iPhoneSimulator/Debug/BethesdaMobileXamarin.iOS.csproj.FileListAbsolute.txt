@@ -1,166 +1,125 @@
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.exe
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Lottie.iOS.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Lottie.iOS.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Lottie.Forms.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Lottie.Forms.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Rg.Plugins.Popup.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Rg.Plugins.Popup.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.nativelibrary.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Licensing.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Core.XForms.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Core.XForms.iOS.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPicker.XForms.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPicker.XForms.iOS.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPicker.iOS.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/System.Buffers.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/System.Memory.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/XF.Material.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/XF.Material.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/BethesdaMobileXamarin.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Mono.Android.dll
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/BethesdaMobileXamarin.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Mono.Android.pdb
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Mono.Android.xml
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/optimized/
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.csprojAssemblyReference.cache
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.csproj.CoreCompileInputs.cache
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.csproj.CopyComplete
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.exe
-D:/Xamarin/BethesdaMobile/BethesdaMobileXamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.exe
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Lottie.iOS.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Lottie.iOS.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Lottie.Forms.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Lottie.Forms.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/DLToolkit.Forms.Controls.FlowListView.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Rg.Plugins.Popup.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Rg.Plugins.Popup.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.nativelibrary.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Licensing.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Core.XForms.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.Core.XForms.iOS.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPicker.XForms.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPicker.XForms.iOS.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Syncfusion.SfPicker.iOS.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/XF.Material.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/XF.Material.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/BethesdaMobileXamarin.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/BethesdaMobileXamarin.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/coremlc/_PartialAppManifest.items
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/coremlc/_BundleResourceWithLogicalName.items
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/optimized/
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.csprojAssemblyReference.cache
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.csproj.CoreCompileInputs.cache
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/XamlC.stamp
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.csproj.CopyComplete
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.exe
-/Users/itbethesda/Documents/Xamarin Project/Bethesda Mobile Xamarin/BethesdaMobileXamarin/BethesdaMobileXamarin.iOS/obj/iPhoneSimulator/Debug/BethesdaMobileXamarin.iOS.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\BethesdaMobileXamarin.iOS.exe
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\BethesdaMobileXamarin.iOS.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Rg.Plugins.Popup.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Rg.Plugins.Popup.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.nativelibrary.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\System.Buffers.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\System.Memory.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Xamarin.Essentials.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.iOS.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Xaml.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\ar\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\ca\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\cs\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\da\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\de\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\el\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\es\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\fi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\fr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\he\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\hi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\hr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\hu\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\id\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\it\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\ja\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\ko\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\ms\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\nb\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\nl\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\pl\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\pt-BR\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\pt\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\ro\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\ru\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\sk\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\sv\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\th\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\tr\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\uk\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\vi\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\zh-HK\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\zh-Hans\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\BethesdaMobileXamarin.dll
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\bin\iPhoneSimulator\Debug\BethesdaMobileXamarin.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\BethesdaMobileXamarin.iOS.csproj.CoreCompileInputs.cache
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\BethesdaMobileXamarin.iOS.csproj.CopyComplete
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\BethesdaMobileXamarin.iOS.exe
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\BethesdaMobileXamarin.iOS.pdb
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\BethesdaMobileXamarin.iOS.csprojAssemblyReference.cache
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Contents.json.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon1024.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon180.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon167.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon152.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon120.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon87.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon80.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon76.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon60.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon58.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon40.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon29.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\Icon20.png.ResolveUTIs.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\ambulance.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\antri.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\approval.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\background.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\call.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\call2.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\doctor.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\farmasi.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\info_klinik.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\klinik.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\logo_bethesda.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\phone.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\schedule.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\optimized\telemedecine.png
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Newtonsoft.Json.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Rg.Plugins.Popup.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Rg.Plugins.Popup.pdb.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLite-net.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.batteries_v2.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.nativelibrary.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.core.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\SQLitePCLRaw.provider.dynamic_cdecl.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Buffers.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Memory.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\System.Runtime.CompilerServices.Unsafe.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Essentials.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Essentials.pdb.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Core.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Core.pdb.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.pdb.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Xaml.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Xaml.pdb.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Xamarin.Forms.Platform.iOS.resources.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\BethesdaMobileXamarin.dll.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\BethesdaMobileXamarin.pdb.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\BethesdaMobileXamarin.iOS.exe.mdb.ReferenceCopyLocalPaths.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\BethesdaMobileXamarin.iOS.pdb.DebugSymbolsProjectOutputGroupOutput.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Entitlements.plist.NoneOutput.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\Info.plist.NoneOutput.stamp
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin.iOS\obj\iPhoneSimulator\Debug\CopyFilesToMac\RobotoSlab-Regular.ttf.NoneOutput.stamp

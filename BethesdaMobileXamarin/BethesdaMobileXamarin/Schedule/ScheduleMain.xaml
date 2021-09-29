@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:BethesdaMobileXamarin.Schedule"
-            mc:Ignorable="d"
+            mc:Ignorable="d"  
              x:Class="BethesdaMobileXamarin.Schedule.ScheduleMain">
   <!--Pages can be added as references or inline-->
-    <ContentPage Title="Jadwal Klinik" x:Name="TabKlinik" >
+    <ContentPage Title="Klinik" x:Name="TabKlinik" >
 
         <StackLayout>
             <StackLayout Spacing="1">
@@ -48,7 +48,7 @@
         </StackLayout>
     </ContentPage>
 
-    <ContentPage Title="Jadwal Dokter"  x:Name="TabDokter">
+    <ContentPage Title="Dokter"  x:Name="TabDokter">
 
         <StackLayout>
             <StackLayout Spacing="1">

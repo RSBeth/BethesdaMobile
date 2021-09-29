@@ -109,6 +109,7 @@ D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXama
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\DokterPickerForm.xaml.g.cs
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\KlinikPickerForm.xaml.g.cs
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\RegistrationForm.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\RegistrationResultForm.xaml.g.cs
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Room\EmptyRoomForm.xaml.g.cs
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Schedule\DokterSchedulePickerForm.xaml.g.cs
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Schedule\KlinikSchedulePickerForm.xaml.g.cs
@@ -123,3 +124,7 @@ D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXama
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\ref\BethesdaMobileXamarin.dll
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.pdb
 D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\BethesdaMobileXamarin.csprojAssemblyReference.cache
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\RegistrationNewPatientForm.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\RegistrationNewPatientForm_2.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\RegistrationNewPatientForm_3.xaml.g.cs
+D:\Mobile Project\BethesdaMobileXamarin\BethesdaMobileXamarin\BethesdaMobileXamarin\obj\Debug\netstandard2.0\Registration\RegistrationNewPatientForm_4.xaml.g.cs

@@ -1,5 +1,6 @@
 ﻿using BethesdaMobileXamarin.Main.model;
 using BethesdaMobileXamarin.Registration;
+using BethesdaMobileXamarin.Registration.Model;
 using BethesdaMobileXamarin.Room;
 using BethesdaMobileXamarin.Schedule;
 using BethesdaMobileXamarin.Utility;
@@ -70,11 +71,15 @@ namespace BethesdaMobileXamarin.Main
                 }
                 else
                 {
-                    await Navigation.PushAsync(new LoginForm());
-                }
-           
+                    NewPatient newPatient = new NewPatient();
+                    newPatient.vc_no_ktp = "123";
+                    await Navigation.PushAsync(new RegistrationNewPatientForm(newPatient));
 
-                
+                    //   await Navigation.PushAsync(new RegistrationNewPatientForm(newPatient));
+                }
+
+
+
 
             }
             if (id == 3)

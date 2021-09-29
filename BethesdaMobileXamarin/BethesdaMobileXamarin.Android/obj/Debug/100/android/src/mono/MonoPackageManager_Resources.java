@@ -5,6 +5,8 @@ public class MonoPackageManager_Resources {
 		"BethesdaMobileXamarin.Android.dll",
 		"BethesdaMobileXamarin.dll",
 		"FormsViewGroup.dll",
+		"Lottie.Android.dll",
+		"Lottie.Forms.dll",
 		"Newtonsoft.Json.dll",
 		"Rg.Plugins.Popup.dll",
 		"SQLite-net.dll",
@@ -12,8 +14,10 @@ public class MonoPackageManager_Resources {
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.android.dll",
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"Square.OkIO.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
+		"Xamarin.AndroidX.Annotation.Experimental.dll",
 		"Xamarin.AndroidX.AppCompat.AppCompatResources.dll",
 		"Xamarin.AndroidX.AppCompat.dll",
 		"Xamarin.AndroidX.Arch.Core.Common.dll",
@@ -43,6 +47,10 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.LocalBroadcastManager.dll",
 		"Xamarin.AndroidX.Media.dll",
 		"Xamarin.AndroidX.MultiDex.dll",
+		"Xamarin.AndroidX.Navigation.Common.dll",
+		"Xamarin.AndroidX.Navigation.Runtime.dll",
+		"Xamarin.AndroidX.Navigation.UI.dll",
+		"Xamarin.AndroidX.Preference.dll",
 		"Xamarin.AndroidX.Print.dll",
 		"Xamarin.AndroidX.RecyclerView.dll",
 		"Xamarin.AndroidX.SavedState.dll",
@@ -61,6 +69,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Xaml.dll",
 		"Xamarin.Google.Android.Material.dll",
 		"Xamarin.Google.Guava.ListenableFuture.dll",
+		"XF.Material.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

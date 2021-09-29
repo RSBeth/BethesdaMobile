@@ -26,6 +26,7 @@ namespace BethesdaMobileXamarin.Droid
      
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+            XF.Material.Droid.Material.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
         }

@@ -25,8 +25,9 @@ namespace BethesdaMobileXamarin.iOS
         {
             Rg.Plugins.Popup.Popup.Init();
             global::Xamarin.Forms.Forms.Init();
+            XF.Material.iOS.Material.Init();
             LoadApplication(new App());
-
+         
             return base.FinishedLaunching(app, options);
         }
     }
