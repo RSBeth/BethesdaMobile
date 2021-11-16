@@ -15,11 +15,11 @@ public class MaterialIconRenderer
 	}
 
 
-	public MaterialIconRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	public MaterialIconRenderer (android.content.Context p0)
 	{
-		super (p0, p1, p2);
+		super (p0);
 		if (getClass () == MaterialIconRenderer.class)
-			mono.android.TypeManager.Activate ("XF.Material.Droid.Renderers.MaterialIconRenderer, XF.Material", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+			mono.android.TypeManager.Activate ("XF.Material.Droid.Renderers.MaterialIconRenderer, XF.Material", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
 	}
 
 
@@ -31,11 +31,11 @@ public class MaterialIconRenderer
 	}
 
 
-	public MaterialIconRenderer (android.content.Context p0)
+	public MaterialIconRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
-		super (p0);
+		super (p0, p1, p2);
 		if (getClass () == MaterialIconRenderer.class)
-			mono.android.TypeManager.Activate ("XF.Material.Droid.Renderers.MaterialIconRenderer, XF.Material", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+			mono.android.TypeManager.Activate ("XF.Material.Droid.Renderers.MaterialIconRenderer, XF.Material", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
 	}
 
 	private java.util.ArrayList refList;

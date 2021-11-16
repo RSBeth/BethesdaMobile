@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
              x:Class="BethesdaMobileXamarin.Registration.RegistrationNewPatientForm_4">
     <ContentPage.Content>
-        <ScrollView Orientation="Vertical" >
+        <ScrollView Orientation="Vertical" BackgroundColor="#bbdefb" >
 
             <StackLayout Spacing="15" Margin="10">
                 <StackLayout Orientation="Vertical">
@@ -15,16 +15,17 @@
                      Margin="16">
 
                     <material:MaterialTextField Placeholder="Propinsi"   
-                                                x:Name="txtPropinsi" ErrorText="Propinsi Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice" ChoiceSelected="txtPropinsi_ChoiceSelected"  Choices="{Binding ListPropinsi}" ChoicesBindingName="vc_propinsi"   />
+                                                x:Name="txtPropinsi" ErrorText="Propinsi Harus Dipilih" Text="" BackgroundColor="White"  InputType="Choice" ChoiceSelected="txtPropinsi_ChoiceSelected"  Choices="{Binding ListPropinsi}" ChoicesBindingName="vc_propinsi"   />
 
                     <material:MaterialTextField Placeholder="Kota/Kabupaten"   
-                                                x:Name="txtKabupaten" ErrorText="Kota/Kabupaten Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice" ChoiceSelected="txtKabupaten_ChoiceSelected"  Choices="{Binding ListKabupatens}" ChoicesBindingName="vc_kota"
+                                                x:Name="txtKabupaten" ErrorText="Kota/Kabupaten Harus Dipilih" Text="" BackgroundColor="White" InputType="Choice" ChoiceSelected="txtKabupaten_ChoiceSelected"  Choices="{Binding ListKabupatens}" ChoicesBindingName="vc_kota"
                                                 />
                     <material:MaterialTextField Placeholder="Kecamatan"   
-                                                x:Name="txtKecamatan" ErrorText="Kecamatan Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice" ChoiceSelected="txtKecamatan_ChoiceSelected"  Choices="{Binding ListKecamatans}" ChoicesBindingName="vc_kecamatan"
+                                                x:Name="txtKecamatan" ErrorText="Kecamatan Harus Dipilih" Text="" BackgroundColor="White"  InputType="Choice" ChoiceSelected="txtKecamatan_ChoiceSelected"  Choices="{Binding ListKecamatans}" ChoicesBindingName="vc_kecamatan"
                                                 />
-                    <material:MaterialTextField Placeholder="Kelurahan"  x:Name="txtKelurahan" ErrorText="Kelurahan Harus Diisi" Text="" BackgroundColor="Transparent"  InputType="Default" />
-                    <material:MaterialTextField Placeholder="No Peserta BPJS(Jika Ada) "  x:Name="txtNoBpjs" Text="" BackgroundColor="Transparent"  InputType="Numeric" />
+                    <material:MaterialTextField Placeholder="Kelurahan"  x:Name="txtKelurahan" ErrorText="Kelurahan Harus Diisi" Text="" BackgroundColor="White"   InputType="Default" />
+                    <material:MaterialTextField Placeholder="Alamat"  x:Name="txtAlamat" ErrorText="Alamat Harus Diisi" Text="" BackgroundColor="White"  InputType="Default" MaxLength="100" />
+                    <material:MaterialTextField Placeholder="No Peserta BPJS(Jika Ada) "  x:Name="txtNoBpjs" Text="" BackgroundColor="White"   InputType="Numeric" />
 
                 </StackLayout>
 

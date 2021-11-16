@@ -17,7 +17,7 @@ namespace BethesdaMobileXamarin.Main {
     public partial class MainMenu : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Label lblLogout;
+        private global::XF.Material.Forms.UI.MaterialButton lblLogout;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.CollectionView KoleksiMenu;
@@ -25,7 +25,7 @@ namespace BethesdaMobileXamarin.Main {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainMenu));
-            lblLogout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "lblLogout");
+            lblLogout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialButton>(this, "lblLogout");
             KoleksiMenu = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.CollectionView>(this, "KoleksiMenu");
         }
     }

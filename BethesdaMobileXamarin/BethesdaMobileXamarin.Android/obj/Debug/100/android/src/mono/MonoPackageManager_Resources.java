@@ -7,6 +7,7 @@ public class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"Lottie.Android.dll",
 		"Lottie.Forms.dll",
+		"NativeMedia.dll",
 		"Newtonsoft.Json.dll",
 		"Rg.Plugins.Popup.dll",
 		"SQLite-net.dll",
@@ -26,12 +27,16 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.Browser.dll",
 		"Xamarin.AndroidX.CardView.dll",
 		"Xamarin.AndroidX.Collection.dll",
+		"Xamarin.AndroidX.Concurrent.Futures.dll",
+		"Xamarin.AndroidX.ConstraintLayout.Core.dll",
+		"Xamarin.AndroidX.ConstraintLayout.dll",
 		"Xamarin.AndroidX.CoordinatorLayout.dll",
 		"Xamarin.AndroidX.Core.dll",
 		"Xamarin.AndroidX.CursorAdapter.dll",
 		"Xamarin.AndroidX.CustomView.dll",
 		"Xamarin.AndroidX.DocumentFile.dll",
 		"Xamarin.AndroidX.DrawerLayout.dll",
+		"Xamarin.AndroidX.DynamicAnimation.dll",
 		"Xamarin.AndroidX.Fragment.dll",
 		"Xamarin.AndroidX.Interpolator.dll",
 		"Xamarin.AndroidX.Legacy.Support.Core.UI.dll",
@@ -56,6 +61,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.SavedState.dll",
 		"Xamarin.AndroidX.SlidingPaneLayout.dll",
 		"Xamarin.AndroidX.SwipeRefreshLayout.dll",
+		"Xamarin.AndroidX.Tracing.Tracing.dll",
 		"Xamarin.AndroidX.Transition.dll",
 		"Xamarin.AndroidX.VectorDrawable.Animated.dll",
 		"Xamarin.AndroidX.VectorDrawable.dll",
@@ -64,6 +70,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.ViewPager2.dll",
 		"Xamarin.Essentials.dll",
 		"Xamarin.Forms.Core.dll",
+		"Xamarin.Forms.PancakeView.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
@@ -73,5 +80,4 @@ public class MonoPackageManager_Resources {
 	};
 	public static String[] Dependencies = new String[]{
 	};
-	public static String ApiPackageName = "Mono.Android.Platform.ApiLevel_29";
 }

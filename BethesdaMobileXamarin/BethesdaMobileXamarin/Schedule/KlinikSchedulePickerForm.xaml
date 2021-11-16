@@ -13,17 +13,10 @@
            CancelButtonColor="Orange"
            PlaceholderColor="Orange"
            TextColor="Orange" 
-           HorizontalTextAlignment="Center"  WidthRequest="150"
+           HorizontalTextAlignment="Center" WidthRequest="220"
            FontSize="Medium"
            x:Name="searchDokter"
-           FontAttributes="Italic" >
-                <SearchBar.FontSize>
-                    <OnPlatform x:TypeArguments="x:Double"
-                         WinPhone="10"
-                         Android="22"
-                         iOS="20" />
-                </SearchBar.FontSize>
-            </SearchBar>
+           FontAttributes="Italic" />
             <Button  HorizontalOptions="Fill" Text="Close" Margin="10" CornerRadius="5" Padding="5,5,5,5"  x:Name="btnCLoseModal"  Clicked="btnCLoseModal_Clicked" BackgroundColor="#3079a8" TextColor="White" ></Button>
         </StackLayout>
         <ListView x:Name="lvKlinik" ItemTapped="lvKlinik_ItemTapped">

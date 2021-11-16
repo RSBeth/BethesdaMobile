@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+             x:Class="BethesdaMobileXamarin.Antrian.AntrianDokterForm">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  BackgroundColor="#bbdefb" >
+            <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"  ></Image>
+            <StackLayout HorizontalOptions="CenterAndExpand">
+                <Label  Text="Info Antrian Dokter"  FontSize="Subtitle"   VerticalTextAlignment="Center" ></Label>
+            </StackLayout>
+            <StackLayout Orientation="Vertical"
+                     Margin="3">
+                <material:MaterialCard CornerRadius="16" Elevation="3" HorizontalOptions="FillAndExpand" >
+                    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Spacing="2">
+                        <Label x:Name="lblTitle" Text="Klinik" HorizontalTextAlignment="Center" 
+                           TextColor="Black" FontSize="18"></Label>
+                        <Entry x:Name="txtKlinik" Placeholder="Pilih Klinik Tujuan" FontSize="Small" Focused="txtKlinik_Focused">
+                        </Entry>
+                    </StackLayout>
+
+                </material:MaterialCard>
+
+
+                <material:MaterialCard CornerRadius="16" Elevation="3" HorizontalOptions="FillAndExpand" >
+                    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Spacing="2">
+                        <Label x:Name="lblDokter" Text="Dokter" HorizontalTextAlignment="Center" 
+                           TextColor="Black" FontSize="18"></Label>
+                        <Entry x:Name="txtDokter" Placeholder="Pilih Dokter" FontSize="Small" Focused="txtDokter_Focused"></Entry>
+                        <material:MaterialButton  x:Name="btnAntrian" Text="Lihat Antrian"  TextColor="White" Clicked="btnAntrian_Clicked"  BackgroundColor="#0069c0" />
+
+                    </StackLayout>
+
+                </material:MaterialCard>
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

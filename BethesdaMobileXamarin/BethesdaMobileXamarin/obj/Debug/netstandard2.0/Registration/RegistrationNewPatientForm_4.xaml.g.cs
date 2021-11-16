@@ -29,6 +29,9 @@ namespace BethesdaMobileXamarin.Registration {
         private global::XF.Material.Forms.UI.MaterialTextField txtKelurahan;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::XF.Material.Forms.UI.MaterialTextField txtAlamat;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::XF.Material.Forms.UI.MaterialTextField txtNoBpjs;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -38,6 +41,7 @@ namespace BethesdaMobileXamarin.Registration {
             txtKabupaten = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtKabupaten");
             txtKecamatan = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtKecamatan");
             txtKelurahan = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtKelurahan");
+            txtAlamat = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtAlamat");
             txtNoBpjs = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtNoBpjs");
         }
     }

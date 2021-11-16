@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+             x:Class="BethesdaMobileXamarin.History.RegistrationHistoryForm">
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  BackgroundColor="#bbdefb"  >
+        <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"  ></Image>
+        <StackLayout HorizontalOptions="CenterAndExpand">
+            <Label  Text="Riwayat Pendaftaran "  FontSize="Subtitle"  FontAttributes="Bold"  VerticalTextAlignment="Center" ></Label>
+        </StackLayout>
+        <StackLayout Orientation="Vertical"
+                     Margin="15">
+            <Label FontSize="Small"  HorizontalOptions="StartAndExpand"  FontAttributes="Bold" TextColor="Red"  x:Name="txtTgl" Text=" *  Data Kunjungan Rawat Jalan untuk 7 Hari Ke depan" ></Label>
+
+            <CollectionView x:Name="listKunjungan" Margin="5">
+                <CollectionView.ItemsLayout >
+                    <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="15"
+                        />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate BackgroundColor="White">
+                    <DataTemplate>
+                        <material:MaterialCard CornerRadius="16" Elevation="3" HorizontalOptions="FillAndExpand" >
+                            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Spacing="2">
+                                <Label    FontSize="Medium"  VerticalTextAlignment="Start" HorizontalOptions="Start" TextColor="Black" FontAttributes="Bold" x:Name="txtKlinik" Text="{Binding namaklinik}" ></Label>
+                                <material:MaterialChip BackgroundColor="red"  Text="{Binding noUrutdokter}" TextColor="Black" HorizontalOptions="End" FontSize="20" x:Name="txtNoUrut" />
+                                <Label FontSize="Small" VerticalTextAlignment="Start"  TextColor="Black"  x:Name="txtTgl" Text="{Binding tglreg}" ></Label>
+                                <Label FontSize="Small"  VerticalTextAlignment="Start" HorizontalOptions="Start" TextColor="Black" x:Name="txtPasien" Text="{Binding namapasien}" ></Label>
+                                <Label FontSize="Small"  VerticalTextAlignment="Start"  TextColor="Black" x:Name="txtDokter" Text="{Binding namadokter}"  ></Label>
+                                <Label FontSize="Small"  VerticalTextAlignment="Start"  TextColor="Black" x:Name="txtPraktek"  Text="{Binding jammulaipraktek}"  ></Label>
+
+                            </StackLayout>
+
+                        </material:MaterialCard>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+
+
+    </StackLayout>
+</ContentPage>

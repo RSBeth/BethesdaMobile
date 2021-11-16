@@ -17,11 +17,11 @@ public class MaterialBoxViewRenderer
 	}
 
 
-	public MaterialBoxViewRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
+	public MaterialBoxViewRenderer (android.content.Context p0)
 	{
-		super (p0, p1, p2);
+		super (p0);
 		if (getClass () == MaterialBoxViewRenderer.class)
-			mono.android.TypeManager.Activate ("XF.Material.Droid.Renderers.Internals.MaterialBoxViewRenderer, XF.Material", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+			mono.android.TypeManager.Activate ("XF.Material.Droid.Renderers.Internals.MaterialBoxViewRenderer, XF.Material", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
 	}
 
 
@@ -33,11 +33,11 @@ public class MaterialBoxViewRenderer
 	}
 
 
-	public MaterialBoxViewRenderer (android.content.Context p0)
+	public MaterialBoxViewRenderer (android.content.Context p0, android.util.AttributeSet p1, int p2)
 	{
-		super (p0);
+		super (p0, p1, p2);
 		if (getClass () == MaterialBoxViewRenderer.class)
-			mono.android.TypeManager.Activate ("XF.Material.Droid.Renderers.Internals.MaterialBoxViewRenderer, XF.Material", "Android.Content.Context, Mono.Android", this, new java.lang.Object[] { p0 });
+			mono.android.TypeManager.Activate ("XF.Material.Droid.Renderers.Internals.MaterialBoxViewRenderer, XF.Material", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
 	}
 
 

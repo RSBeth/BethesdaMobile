@@ -2,15 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d" BackgroundColor="White"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+             mc:Ignorable="d" BackgroundColor="#bbdefb"
              x:Class="BethesdaMobileXamarin.Main.MainMenu">
 
 
-    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  BackgroundColor="#4cb0fc" >
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  BackgroundColor="#bbdefb" >
         <Image Source="logo_bethesda.png" WidthRequest="70" HeightRequest="70"  ></Image>
         <StackLayout HorizontalOptions="EndAndExpand" Orientation="Horizontal" BackgroundColor="White">
-            <Label Text="Logout  " x:Name="lblLogout" IsVisible="False" HorizontalOptions="End"></Label>
+            <material:MaterialButton   x:Name="lblLogout" IsVisible="False" Text="LOGOUT"  BackgroundColor="#0069c0" HorizontalOptions="End" Clicked="lblLogout_Clicked" />
+
         </StackLayout>
 
         <CollectionView x:Name="KoleksiMenu">

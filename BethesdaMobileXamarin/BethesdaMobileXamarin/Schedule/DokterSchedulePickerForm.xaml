@@ -6,36 +6,29 @@
              mc:Ignorable="d"
              x:Class="BethesdaMobileXamarin.Schedule.DokterSchedulePickerForm">
     <StackLayout>
-        <StackLayout >
-                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
-                <SearchBar Placeholder="Cari Dokter...?" TextChanged="SearchBar_TextChanged" WidthRequest="150"
-                 CancelButtonColor="Orange"
-                 PlaceholderColor="Orange"
+        <StackLayout Orientation="Horizontal" >
+            <SearchBar Placeholder="Cari Dokter..." TextChanged="SearchBar_TextChanged"
+           CancelButtonColor="Orange"
+           PlaceholderColor="Orange"
            TextColor="Orange" 
            HorizontalTextAlignment="Center"
            FontSize="Medium"
+           WidthRequest="220"
            x:Name="searchDokter"
-           FontAttributes="Italic" >
-                    <SearchBar.FontSize>
-                        <OnPlatform x:TypeArguments="x:Double"
-                         WinPhone="10"
-                         Android="22"
-                         iOS="20" />
-                    </SearchBar.FontSize>
-                </SearchBar>
-
-                <Button Text="Close" Margin="10" CornerRadius="5" Padding="5,5,5,5"  x:Name="btnCLoseModal"  Clicked="btnCLoseModal_Clicked" BackgroundColor="#3079a8" TextColor="White" ></Button>
+           FontAttributes="Italic" />
 
 
-            </StackLayout>
-            
-            <ListView x:Name="lvDokter" ItemTapped="lvDokter_ItemTapped">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell Text="{Binding NamaDokter}" TextColor="Black"  />
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+            <Button Text="Close" HorizontalOptions="End" Margin="10" CornerRadius="5" Padding="5,5,5,5"  x:Name="btnCLoseModal"  Clicked="btnCLoseModal_Clicked" BackgroundColor="#3079a8" TextColor="White" ></Button>
+
+
         </StackLayout>
+
+        <ListView x:Name="lvDokter" ItemTapped="lvDokter_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding NamaDokter}" TextColor="Black"  />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 </ContentPage>

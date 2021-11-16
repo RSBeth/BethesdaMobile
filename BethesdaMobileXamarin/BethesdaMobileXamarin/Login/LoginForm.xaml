@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"   
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
-    ios:Page.UseSafeArea="true" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  mc:Ignorable="d"  x:Class="BethesdaMobileXamarin.Main.LoginForm">
-    <Grid BackgroundColor="White">
+    ios:Page.UseSafeArea="true"  BackgroundColor="#bbdefb"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material" mc:Ignorable="d"  x:Class="BethesdaMobileXamarin.Main.LoginForm">
+    <Grid >
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
@@ -21,10 +21,12 @@
             </Grid.RowDefinitions>
             <Image Source="logo_bethesda.png" HeightRequest="90"  VerticalOptions="EndAndExpand"/>
             <Label Text="Silahkan Login Terlebih Dahulu" Grid.Row="1" HorizontalOptions="Center" FontFamily="Lato-Regular" FontAttributes="Bold"/>
+            <material:MaterialTextField  Grid.Row="2" Placeholder="No RM " x:Name="txtNoRM" ErrorText="No RM Harus diisii" Text=""   BackgroundColor="White" InputType="Default" />
+            <material:MaterialTextField Grid.Row="3" Placeholder="Tgl Lahir(ddmmyyyy)" x:Name="txtPassword" ErrorText="Password Harus Diisi" Text=""   BackgroundColor="White" InputType="Password" />
 
-            <Entry Grid.Row="2" Placeholder="No RM"   Keyboard="Numeric"  PlaceholderColor="#bababa" FontSize="16" FontFamily="Lato-Regular" x:Name="txtNoRM"/>
+            <!--<Entry Grid.Row="2" Placeholder="No RM"   Keyboard="Numeric"  PlaceholderColor="#bababa" FontSize="16" FontFamily="Lato-Regular" x:Name="txtNoRM"/>
 
-            <Entry Grid.Row="3"  Keyboard="Numeric" IsPassword="True" Placeholder="Tgl Lahir(ddmmyyyy)" PlaceholderColor="#bababa" FontSize="16" FontFamily="Lato-Regular" x:Name="txtPassword"/>
+            <Entry Grid.Row="3"  Keyboard="Numeric" IsPassword="True" Placeholder="Tgl Lahir(ddmmyyyy)" PlaceholderColor="#bababa" FontSize="16" FontFamily="Lato-Regular" x:Name="txtPassword"/>-->
             <Button Text="LogIn"  x:Name="btnLogin" Clicked="BtnLogin_Clicked" BackgroundColor="#3897f0" TextColor="White" HeightRequest="50" VerticalOptions="Start" Grid.Row="4"/>
             <Grid Grid.Row="5">
                 <Grid.ColumnDefinitions>

@@ -1,5 +1,7 @@
-﻿using BethesdaMobileXamarin.Main;
-
+﻿
+using BethesdaMobileXamarin.History;
+using BethesdaMobileXamarin.Main;
+using BethesdaMobileXamarin.Registration;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -36,14 +38,30 @@ namespace BethesdaMobileXamarin
         public static string KodeKlinikRegis { get; internal set; }
         public static string KlinikNamaRegis { get; internal set; }
 
+
+        public static string KodeKlinikNewRegis { get; internal set; }
+        public static string KlinikNamaNewRegis { get; internal set; }
+
         public static string KodeDokterRegis { get; internal set; }
         public static string DokterNamaRegis { get; internal set; }
+        public static string noKTPNewRegis { get; internal set; }
+        public static string KodeDokterNewRegis { get; internal set; }
+        public static string DokterNamaNewRegis { get; internal set; }
+        public static string TglPeriksaNewRegis { get; internal set; }
 
-        public static string KodeKlinikSchedule{ get; internal set; }
+        public static string KodeKlinikSchedule { get; internal set; }
         public static string KlinikNamaSchedule { get; internal set; }
 
         public static string KodeDokterSchedule { get; internal set; }
         public static string DokterNamaSchedule { get; internal set; }
 
+
+        public static string KodeKlinikAntrian { get; internal set; }
+
+        public static string KlinikNamaAntrian { get; internal set; }
+
+        public static string KodeDokterAntrian { get; internal set; }
+
+        public static string DokterNamaAntrian { get; internal set; }
     }
 }

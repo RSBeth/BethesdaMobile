@@ -69,7 +69,7 @@ namespace BethesdaMobileXamarin.Registration
             App.KodeKlinikRegis = "";
             App.KlinikNamaRegis = "";
             txtKlinik.Text = "";
-            await Navigation.PushModalAsync(new KlinikPickerForm(App.KodeKlinikRegis, App.KlinikNamaRegis,App.KodeDokterRegis , App.DokterNamaRegis, dtTglPeriksa.Date.ToString()));
+            await Navigation.PushModalAsync(new KlinikPickerForm(App.KodeKlinikRegis, App.KlinikNamaRegis,App.KodeDokterRegis , App.DokterNamaRegis, dtTglPeriksa.Date.ToString(),"Old"));
             // await Navigation.PushAsync(new KlinikPickerForm(_kodeKLinik, _namaKlinik, _kodeDokter, _namaDokter, dtTglPeriksa.Date.ToString()));
 
 
@@ -81,7 +81,7 @@ namespace BethesdaMobileXamarin.Registration
             App.DokterNamaRegis = "";
             txtDokter.Text = "";
          
-            await Navigation.PushModalAsync(new DokterPickerForm(App.KodeKlinikRegis, App.KlinikNamaRegis, App.KodeDokterRegis, App.DokterNamaRegis, dtTglPeriksa.Date.ToString()));
+            await Navigation.PushModalAsync(new DokterPickerForm(App.KodeKlinikRegis, App.KlinikNamaRegis, App.KodeDokterRegis, App.DokterNamaRegis, dtTglPeriksa.Date.ToString(),"Old"));
         }
 
         private async void btnDaftar_Clicked(object sender, EventArgs e)
@@ -90,7 +90,7 @@ namespace BethesdaMobileXamarin.Registration
             if (holidayDate.deskripsiresponse.ToLower() != ("ok"))
             {
 
-                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Informasi", holidayDate.response));
+                await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Informasi", holidayDate.response));
                 return;
 
             }

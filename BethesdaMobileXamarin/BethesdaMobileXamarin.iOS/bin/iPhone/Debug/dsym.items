@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_AppExtensionDebugSymbolProperties Include="BethesdaMobileXamarin.iOS.app">
+      <NativeExecutable>BethesdaMobileXamarin.iOS</NativeExecutable>
+      <CompiledArchitectures>ARM64</CompiledArchitectures>
+      <NoDSymUtil>false</NoDSymUtil>
+      <NoSymbolStrip>false</NoSymbolStrip>
+      <SymbolsList>\Users\itbethesda\Library\Caches\Xamarin\mtbs\builds\BethesdaMobileXamarin.iOS\3e67e6bbcffbcd587ba2b618fc8306f4b4ecb78432087a81956265ab7e7292eb\obj\iPhone\Debug\mtouch-symbols.list</SymbolsList>
+    </_AppExtensionDebugSymbolProperties>
+  </ItemGroup>
+</Project>

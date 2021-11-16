@@ -22,6 +22,7 @@ namespace BethesdaMobileXamarin.Registration
         private string _kodeDokter;
         private string _namaDokter;
         private string _tglreg;
+        private string _source;
 
         private DataBaseUtil dataBaseUtil;
         private List<Klinik> kliniks;
@@ -36,7 +37,7 @@ namespace BethesdaMobileXamarin.Registration
             
         }
 
-        public KlinikPickerForm(string kodeKlinik, string namaKlinik, string kodeDokter, string namaDokter,String tglReg)
+        public KlinikPickerForm(string kodeKlinik, string namaKlinik, string kodeDokter, string namaDokter,String tglReg,String source)
         {
             InitializeComponent();
             klinikServices = new KlinikServices();
@@ -47,6 +48,7 @@ namespace BethesdaMobileXamarin.Registration
             _kodeDokter = kodeDokter;
             _namaDokter = namaDokter;
             _tglreg = tglReg;
+            _source = source;
         }
 
         protected override async void OnAppearing()
@@ -83,8 +85,23 @@ namespace BethesdaMobileXamarin.Registration
             var itemClicked = (Klinik)e.Item;
             _kodeKLinik = itemClicked.KodeKlinik;
             _namaKlinik = itemClicked.NamaKlinik;
-            App.KodeKlinikRegis = _kodeKLinik;
-            App.KlinikNamaRegis = _namaKlinik;
+
+            if (_source == "New") // jika pendaftaran pasien baru balikannya ini
+            {
+                App.KodeKlinikNewRegis = _kodeKLinik;
+                App.KlinikNamaNewRegis = _namaKlinik;
+            }
+            if (_source == "Old") 
+            {
+                App.KodeKlinikRegis = _kodeKLinik;
+                App.KlinikNamaRegis = _namaKlinik;
+            }
+            else 
+            {
+                App.KodeKlinikAntrian = _kodeKLinik;
+                App.KlinikNamaAntrian = _namaKlinik;
+            }
+           
             if (itemClicked.praktek == "false")
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Informasi", itemClicked.response));

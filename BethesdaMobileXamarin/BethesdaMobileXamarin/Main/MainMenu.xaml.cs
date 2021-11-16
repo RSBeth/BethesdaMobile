@@ -1,4 +1,6 @@
-﻿using BethesdaMobileXamarin.Main.model;
+﻿using BethesdaMobileXamarin.Antrian;
+using BethesdaMobileXamarin.History;
+using BethesdaMobileXamarin.Main.model;
 using BethesdaMobileXamarin.Registration;
 using BethesdaMobileXamarin.Registration.Model;
 using BethesdaMobileXamarin.Room;
@@ -32,7 +34,7 @@ namespace BethesdaMobileXamarin.Main
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            if(App.IsUserLoggedIn)
+            if (App.IsUserLoggedIn)
             {
                 lblLogout.IsVisible = true;
             }
@@ -46,6 +48,7 @@ namespace BethesdaMobileXamarin.Main
             new MenuModel(){Menuid=2 ,Title ="Riwayat Pendaftaran Online" ,ImageSource="stetoskop.jpg"},
             new MenuModel(){Menuid=3 ,Title ="Jadwal Dokter" ,ImageSource="doctor.png"},
             new MenuModel(){Menuid=4 ,Title ="Informasi Kamar" ,ImageSource="bed.jpg"},
+            new MenuModel(){Menuid=5 ,Title ="Info Antrian Dokter" ,ImageSource="antri.png"},
          //   new MenuModel(){Menuid=5 ,Title ="Info Antrian Dokter" ,ImageSource="antri.png"},
           //  new MenuModel(){Menuid=6 ,Title ="Tracking Resep Farmasi" ,ImageSource="farmasi.png"},
            // new MenuModel(){Menuid=7 ,Title ="Telemedicine" ,ImageSource="telemedecine.png"}
@@ -62,42 +65,49 @@ namespace BethesdaMobileXamarin.Main
             Frame frameClicked = (Frame)sender;
             var item = (TapGestureRecognizer)frameClicked.GestureRecognizers[0];
             int id = (int)item.CommandParameter;
-            if (id == 1)  //menu login
+            if (id == 1)  //menu Pendaftaran
+            {
+                await Navigation.PushAsync(new RegistrationSubMenu());
+
+
+
+
+            }
+            if (id == 2)  //menu history
             {
                 if (App.IsUserLoggedIn == true)
                 {
 
-                    await Navigation.PushAsync(new RegistrationForm());
+                    await Navigation.PushAsync(new RegistrationHistoryForm());
                 }
                 else
                 {
-                    NewPatient newPatient = new NewPatient();
-                    newPatient.vc_no_ktp = "123";
-                    await Navigation.PushAsync(new RegistrationNewPatientForm(newPatient));
 
-                    //   await Navigation.PushAsync(new RegistrationNewPatientForm(newPatient));
+                    await Navigation.PushAsync(new LoginForm("History"));
                 }
-
-
-
-
+                
             }
-            if (id == 3)
+            if (id == 3) //menu jadwal
             {
                 await Navigation.PushAsync(new ScheduleMain());
-
-                //}
-
-                //            MaterialCardmaterialCard = (MaterialCard)sender;
-
             }
 
-            if (id == 4)
+            if (id == 4)  //menu ruang kosong
             {
                 await Navigation.PushAsync(new EmptyRoomForm());
 
             }
+            if (id == 5)  //menu antrian dokter
+            {
+                await Navigation.PushAsync(new AntrianDokterForm());
 
+            }
+        }
+
+        private void lblLogout_Clicked(object sender, EventArgs e)
+        {
+            App.IsUserLoggedIn = false;
+            lblLogout.IsVisible = false;
         }
     }
 }

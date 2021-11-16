@@ -14,5 +14,10 @@ namespace BethesdaMobileXamarin.Registration.Model
 
         public string vc_kodeKelamin { get; set; }
         public string vc_jenisKelamin { get; set; }
+
+        public static explicit operator JenisKelamin(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

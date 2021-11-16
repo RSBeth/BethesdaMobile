@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XF.Material.Forms.UI.Dialogs;
 
 namespace BethesdaMobileXamarin.Schedule
 {
@@ -52,10 +53,17 @@ namespace BethesdaMobileXamarin.Schedule
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Warning", "Klinik Belum Dipilih"));
                 return;
             }
-            getJadwalKlinik();
+            using (await MaterialDialog.Instance.LoadingDialogAsync(message: "Load Antrian Dokter"))
+
+            {
+                await getJadwalKlinik();
+            }
+           
         }
 
-        private async void getJadwalKlinik()
+        private async 
+        Task
+getJadwalKlinik()
         {
             ScheduleServices scheduleServices = new ScheduleServices();
             List<KlinikSchedule> listKlinikSchedule = new List<KlinikSchedule>();

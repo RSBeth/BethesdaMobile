@@ -4,7 +4,7 @@
              
              x:Class="BethesdaMobileXamarin.Registration.RegistrationNewPatientForm_2">
     <ContentPage.Content>
-        <ScrollView Orientation="Vertical" >
+        <ScrollView Orientation="Vertical" BackgroundColor="#bbdefb">
 
             <StackLayout Spacing="15" Margin="10">
                 <StackLayout Orientation="Vertical">
@@ -14,17 +14,17 @@
 
                 <StackLayout Orientation="Vertical"
                      Margin="16">
-                    <material:MaterialTextField Placeholder="Nama Pasien"  x:Name="txtNamaPasien" ErrorText="Nama Pasien Harus Diisi" Text="" BackgroundColor="Transparent" InputType="Default" />
-                    <material:MaterialTextField Placeholder="Jenis Kelamin"    x:Name="txtJenisKel" ErrorText="Jenis Kelaminin Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice"  Choices="{Binding listJenisKelamin}" ChoicesBindingName="vc_jenisKelamin" />
-                    <material:MaterialTextField Placeholder="Tempat Lahir"  x:Name="txtTempatLahir" ErrorText="Tempat Lahir Harus Diisi" Text="" BackgroundColor="Transparent"  InputType="Default" /> 
-                    <material:MaterialDateField Placeholder="Tanggal Lahir" Date="2020/08/28"
+                    <material:MaterialTextField Placeholder="Nama Pasien"  x:Name="txtNamaPasien" ErrorText="Nama Pasien Harus Diisi" Text=""   BackgroundColor="White" InputType="Default" />
+                    <material:MaterialTextField Placeholder="Jenis Kelamin"    x:Name="txtJenisKel" ErrorText="Jenis Kelaminin Harus Dipilih" Text=""  BackgroundColor="White" InputType="Choice"  Choices="{Binding listJenisKelamin}" ChoicesBindingName="vc_jenisKelamin" ChoiceSelected="txtJenisKel_ChoiceSelected" />
+                    <material:MaterialTextField Placeholder="Tempat Lahir"  x:Name="txtTempatLahir" ErrorText="Tempat Lahir Harus Diisi" Text=""  BackgroundColor="White"  InputType="Default" />
+                    <material:MaterialDateField Placeholder="Tanggal Lahir"  x:Name="dtTglLahir"  DateChanged="MaterialDateField_DateChanged"    BackgroundColor="White"  ErrorText="Tanggal Lahir Harus Diisi"
                                         Format="dd-MM-yyyy"/>
                     <material:MaterialTextField Placeholder="Agama"   
-                                                x:Name="txtAgama" ErrorText="Agama Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice"  Choices="{Binding listAgamas}" ChoicesBindingName="vc_agama"  ChoiceSelected="txtAgama_ChoiceSelected"  />
+                                                x:Name="txtAgama" ErrorText="Agama Harus Dipilih" Text="" BackgroundColor="White" InputType="Choice"  Choices="{Binding listAgamas}" ChoicesBindingName="vc_agama"  ChoiceSelected="txtAgama_ChoiceSelected"   />
                     <material:MaterialTextField Placeholder="Pendidikan"   
-                                                x:Name="txtPendidikan" ErrorText="Pendidikan Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice"  Choices="{Binding  ListPendidikan}" ChoicesBindingName="vc_pendidikan" ChoiceSelected="txtPendidikan_ChoiceSelected"  />
+                                                x:Name="txtPendidikan" ErrorText="Pendidikan Harus Dipilih" Text=""  BackgroundColor="White" InputType="Choice"  Choices="{Binding  ListPendidikan}" ChoicesBindingName="vc_pendidikan" ChoiceSelected="txtPendidikan_ChoiceSelected"  />
                     <material:MaterialTextField Placeholder="Pekerjaan"   
-                                                x:Name="txtPekerjaan" ErrorText="Pekerjaan Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice"  Choices="{Binding  ListPekerjaans}" ChoicesBindingName="vc_pekerjaan" ChoiceSelected="txtPekerjaan_ChoiceSelected"   />
+                                                x:Name="txtPekerjaan" ErrorText="Pekerjaan Harus Dipilih" Text="" BackgroundColor="White" InputType="Choice"  Choices="{Binding  ListPekerjaans}" ChoicesBindingName="vc_pekerjaan" ChoiceSelected="txtPekerjaan_ChoiceSelected"   />
 
                 </StackLayout>
 

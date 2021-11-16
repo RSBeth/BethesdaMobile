@@ -26,6 +26,7 @@ namespace BethesdaMobileXamarin.Registration
         private string _kodeDokter;
         private string _namaDokter;
         private string _tglReg;
+        private string _source;
         public DokterPickerForm()
         {
             InitializeComponent();
@@ -39,7 +40,7 @@ namespace BethesdaMobileXamarin.Registration
 
      
 
-        public DokterPickerForm(string kodeKlinik, string namaKlinik, string kodeDokter, string namaDokter,String tglReg)
+        public DokterPickerForm(string kodeKlinik, string namaKlinik, string kodeDokter, string namaDokter,String tglReg,string source)
         {
             InitializeComponent();
             dokterServices = new DokterServices();
@@ -50,6 +51,7 @@ namespace BethesdaMobileXamarin.Registration
             _kodeDokter = kodeDokter;
             _namaDokter = namaDokter;
             _tglReg = tglReg;
+            _source = source;
         }
         protected override async void OnAppearing()
 
@@ -88,8 +90,22 @@ namespace BethesdaMobileXamarin.Registration
             var itemClicked = (Dokter)e.Item;
             _kodeDokter = itemClicked.NID;
             _namaDokter = itemClicked.NamaDokter;
-            App.KodeDokterRegis = _kodeDokter;
-            App.DokterNamaRegis = _namaDokter;
+            if(_source=="New")
+            {
+                App.KodeDokterNewRegis = _kodeDokter;
+                App.DokterNamaNewRegis = _namaDokter;
+            }
+            if (_source == "Old")
+            {
+                App.KodeDokterRegis = _kodeDokter;
+                App.DokterNamaRegis = _namaDokter;
+            }
+            else
+            {
+                App.KodeDokterAntrian= _kodeDokter;
+                App.DokterNamaAntrian = _namaDokter;
+            }
+       
             if (itemClicked.praktek == "false")
             {
                 await PopupNavigation.Instance.PushAsync(new DialogAlertCustom("Informasi", itemClicked.response));

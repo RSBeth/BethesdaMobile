@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BethesdaMobileXamarin.Registration.RegistrationSubMenu">
+    <ContentPage.Content BackgroundColor="#bbdefb">
+        <ScrollView Orientation="Vertical" BackgroundColor="#bbdefb">
+            <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  BackgroundColor="#bbdefb"  Spacing="15" Margin="10"  >
+                <StackLayout Orientation="Vertical">
+                    <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"></Image>
+                    <Label Text="{StaticResource TitlePendaftaranOnline}" TextColor="Black" HorizontalTextAlignment="Center"></Label>
+                </StackLayout>
+
+                <Frame CornerRadius="10" HasShadow="True"  x:Name="subMenu1"   >
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  >
+                        <Image  Source="new_patient.png"     WidthRequest="70" HeightRequest="70"     />
+                        <Label  Text="Registrasi Pasien Lama(Sudah Punya NO RM)" WidthRequest="120" BackgroundColor="White" HorizontalTextAlignment="Center"  
+                                       VerticalTextAlignment="Center" FontFamily="Samantha" FontSize="Small" ></Label>
+                    </StackLayout>
+                </Frame>
+
+                <Frame CornerRadius="10" HasShadow="True" x:Name="subMenu2"   >
+
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped_1" NumberOfTapsRequired="1" />
+                    </Frame.GestureRecognizers>
+                    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  >
+                        <Image  Source="old_patient.png"    WidthRequest="70" HeightRequest="70"    />
+                        <Label  Text="Registrasi Pasien Baru (Blm Punya No RM)" WidthRequest="120" BackgroundColor="White" HorizontalTextAlignment="Center"  
+                                       VerticalTextAlignment="Center" FontFamily="Samantha"  FontSize="Small"  ></Label>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

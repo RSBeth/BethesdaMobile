@@ -101,6 +101,30 @@ namespace BethesdaMobileXamarin.Registration.Services
             }
             return listPekerjaaan;
         }
+        public async Task<List<Kawin>> GetKawinServices()
+        {
+            List<Kawin> listKawin = new List<Kawin>();
+            var uri = new Uri($"{urlWebServices}/Getkawin/");
+            try
+            {
+                var response = await client.GetAsync(uri);
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    listKawin = JsonConvert.DeserializeObject<List<Kawin>>(content);
+
+                }
+                else
+                {
+                    throw new Exception("Gagal Mengambil Data Kawin");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            return listKawin;
+        }
 
 
         public async Task<List<Negara>> GetNegaraServices()
@@ -178,7 +202,34 @@ namespace BethesdaMobileXamarin.Registration.Services
             }
             return listKabupaten;
         }
+        public async Task<RegistrationResults> postRegistrationNewPatient(NewRegistration newRegistration)
+        {
+            RegistrationResults registrationResults = new RegistrationResults();
+            var uri = new Uri($"{urlWebServices}/pendaftarantgl/");
+            try
+            {
+                var jsonObj = JsonConvert.SerializeObject(newRegistration);
+                var content = new StringContent(jsonObj,
+                                                Encoding.UTF8, "application/json");
+                var response = await client.PostAsync(uri, content);
 
+                if (!response.IsSuccessStatusCode)
+                {
+                    throw new Exception("Gagal Registrasi Online");
+                }
+                else
+                {
+                    var result = await response.Content.ReadAsStringAsync();
+                    registrationResults = JsonConvert.DeserializeObject<RegistrationResults>(result);
+                    return registrationResults;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
 
         public async Task<List<Kecamatan>> GetKecamatanByIdServices(string kodeKabupaten)
         {
@@ -204,5 +255,60 @@ namespace BethesdaMobileXamarin.Registration.Services
             }
             return listKecamatan;
         }
+
+        public async Task<NewPatientResults> postNewPatient(NewPatient newPatient)
+        {
+            NewPatientResults newPatientResults = new NewPatientResults();
+            var uri = new Uri($"{urlWebServices}/pasienbaruybyktp/");
+            try
+            {
+                var jsonObj = JsonConvert.SerializeObject(newPatient);
+                var content = new StringContent(jsonObj,
+                                                Encoding.UTF8, "application/json");
+                var response = await client.PostAsync(uri, content);
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    throw new Exception("Gagal Proses Pembuatan Pasien Baru");
+                }
+                else
+                {
+                    var result = await response.Content.ReadAsStringAsync();
+                    newPatientResults = JsonConvert.DeserializeObject<NewPatientResults>(result);
+                    return newPatientResults;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public async Task<PatientCheckKTP> getPasienByKTP(String noKTP)
+        {
+            PatientCheckKTP patientCheckKtp = new PatientCheckKTP();
+            var uri = new Uri($"{urlWebServices}/getpasienbyktp/" + noKTP);
+            try
+            {
+                var response = await client.GetAsync(uri);
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    patientCheckKtp = JsonConvert.DeserializeObject<PatientCheckKTP>(content);
+
+                }
+                else
+                {
+                    throw new Exception("Gagal Mengambil KTP Pasien");
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            return patientCheckKtp;
+        }
+
     }
 }

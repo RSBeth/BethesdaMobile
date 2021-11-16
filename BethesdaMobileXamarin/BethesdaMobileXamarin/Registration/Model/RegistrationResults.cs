@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BethesdaMobileXamarin.Registration.Model
 {
-    class RegistrationResults
+ public   class RegistrationResults
     {
         public string tglreg { get; set; }
         public  string jamReg { get; set; }

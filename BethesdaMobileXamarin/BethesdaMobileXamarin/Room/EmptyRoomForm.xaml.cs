@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XF.Material.Forms.UI.Dialogs;
 
 namespace BethesdaMobileXamarin.Room
 {   
@@ -25,7 +26,12 @@ namespace BethesdaMobileXamarin.Room
         protected async override void OnAppearing()
         {
             base.OnAppearing();
-            await GetEmptyRoom();
+            using (await MaterialDialog.Instance.LoadingDialogAsync(message: "Load Ketersediaan Kamar "))
+            
+                {
+                await GetEmptyRoom();
+            }
+                
         }
 
         private async Task GetEmptyRoom()

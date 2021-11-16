@@ -58,7 +58,34 @@ namespace BethesdaMobileXamarin.Registration.Services
             }
             return holidayDate;
         }
+        public async Task<RegistrationResults> postRegistrationNewPatient(NewRegistration newRegistration)
+        {
+            RegistrationResults registrationResults = new RegistrationResults();
+            var uri = new Uri($"{urlWebServices}/kunjunganbarubyktp/");
+            try
+            {
+                var jsonObj = JsonConvert.SerializeObject(newRegistration);
+                var content = new StringContent(jsonObj,
+                                                Encoding.UTF8, "application/json");
+                var response = await client.PostAsync(uri, content);
 
+                if (!response.IsSuccessStatusCode)
+                {
+                    throw new Exception("Gagal Membuat Registrasi Pasien Baru");
+                }
+                else
+                {
+                    var result = await response.Content.ReadAsStringAsync();
+                    registrationResults = JsonConvert.DeserializeObject<RegistrationResults>(result);
+                    return registrationResults;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
         public async Task<RegistrationResults> postRegistration(Registrations registration)
         {
             RegistrationResults registrationResults = new RegistrationResults();

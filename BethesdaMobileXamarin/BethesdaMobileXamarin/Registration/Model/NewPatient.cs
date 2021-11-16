@@ -18,6 +18,7 @@ namespace BethesdaMobileXamarin.Registration.Model
 
         public int IN_umurth { get; set; }
         public int IN_umurbl { get; set; }
+        public int IN_umurhr { get; set; }
         public string vc_k_agm { get; set; }
 
         public string vc_k_status { get; set; }
@@ -44,7 +45,8 @@ namespace BethesdaMobileXamarin.Registration.Model
         public string vc_kode_camat { get; set; }
 
         public string vc_kecamatan { get; set; }
-
+        
+        public string vc_kelurahan { get; set; }
         public string vc_nik { get; set; }
         public string VC_gol_d { get; set; }
 

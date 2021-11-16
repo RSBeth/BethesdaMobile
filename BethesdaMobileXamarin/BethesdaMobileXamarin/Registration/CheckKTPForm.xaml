@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+             x:Class="BethesdaMobileXamarin.Registration.CheckKTPForm">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" BackgroundColor="#bbdefb">
+
+            <StackLayout Spacing="15" Margin="10">
+                <StackLayout Orientation="Vertical">
+                    <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"></Image>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label Text="Masukan NO KTP/NIK" TextColor="Black" FontSize="Title"
+                 VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                    <material:MaterialTextField Placeholder="NO KTP/NIK" ErrorText="No KTP/NIK Harus Diisi 16 Digit"  x:Name="txtNOKTP" Text=""  BackgroundColor="White"  InputType="Numeric" MaxLength="16" />
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="10">
+                    <material:MaterialButton  Text="Check"    TextColor="White"  Clicked="btnCheckKTP_Clicked" BackgroundColor="#0069c0"  />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -4,9 +4,19 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundImageSource="background.png"
+           
                 NavigationPage.HasNavigationBar="False"
              x:Class="BethesdaMobileXamarin.Main.IntroPage">
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0"
+                             EndPoint="1,0">
+            <GradientStop Color="#004ecb"
+                          Offset="0.1"/>
+            <GradientStop Color="#ff23729a"
+                          Offset="1.0"/>
+        </LinearGradientBrush>
+
+    </ContentPage.Background>
     <ContentPage.Content>
 
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" Margin="0,80,0,0" >

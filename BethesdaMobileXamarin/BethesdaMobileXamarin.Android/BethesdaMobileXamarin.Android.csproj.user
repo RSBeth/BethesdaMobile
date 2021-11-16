@@ -3,5 +3,8 @@
   <PropertyGroup>
     <SelectedDevice>Android Emulator</SelectedDevice>
     <AndroidDesignerPreferredTheme>Theme.AppCompat.Light.NoActionBar</AndroidDesignerPreferredTheme>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <DefaultDevice>pixel_2_pie_9_0_-_api_28</DefaultDevice>
+    <ActiveDebugProfile>Android Emulator</ActiveDebugProfile>
   </PropertyGroup>
 </Project>

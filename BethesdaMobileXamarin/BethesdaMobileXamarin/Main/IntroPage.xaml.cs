@@ -49,12 +49,24 @@ namespace BethesdaMobileXamarin.Main
         {
             App.KlinikNamaRegis = "";
             App.KodeKlinikRegis = "";
+            
             App.DokterNamaRegis = "";
             App.KodeDokterRegis = "";
+            
             App.KlinikNamaSchedule = "";
             App.KodeKlinikSchedule = "";
+            
             App.DokterNamaSchedule = "";
             App.KodeDokterSchedule = "";
+            
+            App.DokterNamaNewRegis = "";
+            App.KodeDokterNewRegis = "";
+
+            App.KlinikNamaNewRegis = "";
+            App.KodeDokterNewRegis = "";
+
+            App.noKTPNewRegis = "";
+            App.TglPeriksaNewRegis = ""; 
         }
 
         private async Task GetInsertDokterAll()

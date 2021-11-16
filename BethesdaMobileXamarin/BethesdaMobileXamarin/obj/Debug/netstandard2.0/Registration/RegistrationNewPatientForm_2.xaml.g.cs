@@ -26,6 +26,9 @@ namespace BethesdaMobileXamarin.Registration {
         private global::XF.Material.Forms.UI.MaterialTextField txtTempatLahir;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::XF.Material.Forms.UI.MaterialDateField dtTglLahir;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::XF.Material.Forms.UI.MaterialTextField txtAgama;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
@@ -40,6 +43,7 @@ namespace BethesdaMobileXamarin.Registration {
             txtNamaPasien = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtNamaPasien");
             txtJenisKel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtJenisKel");
             txtTempatLahir = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtTempatLahir");
+            dtTglLahir = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialDateField>(this, "dtTglLahir");
             txtAgama = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtAgama");
             txtPendidikan = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtPendidikan");
             txtPekerjaan = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::XF.Material.Forms.UI.MaterialTextField>(this, "txtPekerjaan");

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
              x:Class="BethesdaMobileXamarin.Registration.RegistrationNewPatientForm_3">
     <ContentPage.Content>
-        <ScrollView Orientation="Vertical" >
+        <ScrollView Orientation="Vertical" BackgroundColor="#bbdefb" >
 
             <StackLayout Spacing="15" Margin="10">
                 <StackLayout Orientation="Vertical">
@@ -15,19 +15,19 @@
                      Margin="16">
                    
                     <material:MaterialTextField Placeholder="Warga Negara"   
-                                                x:Name="txtNegara" ErrorText="Negara Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice" ChoiceSelected="txtNegara_ChoiceSelected"  Choices="{Binding ListNegaras}" ChoicesBindingName="vc_n_negara"   />
+                                                x:Name="txtNegara" ErrorText="Negara Harus Dipilih" Text="" BackgroundColor="White"  InputType="Choice" ChoiceSelected="txtNegara_ChoiceSelected"  Choices="{Binding ListNegaras}" ChoicesBindingName="vc_n_negara"   />
                 
                     <material:MaterialTextField Placeholder="Status Kawin"   
-                                                x:Name="txtStatusKawin" ErrorText="Status Kawin Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice" ChoiceSelected="txtStatusKawin_ChoiceSelected"  
+                                                x:Name="txtStatusKawin" ErrorText="Status Kawin Harus Dipilih" Text="" BackgroundColor="White"  InputType="Choice" ChoiceSelected="txtStatusKawin_ChoiceSelected"    Choices="{Binding ListKawins}" ChoicesBindingName="vc_stkawin" 
                                                 />
 
-                    <material:MaterialTextField Placeholder="No Telp WA"  x:Name="txtNoTelp" ErrorText="No Telp WA Harus Diisi" Text="" BackgroundColor="Transparent"  InputType="Telephone" />
-                    <material:MaterialTextField Placeholder="No Email"  x:Name="txtEmail" ErrorText="No Telp WA Harus Diisi" Text="" BackgroundColor="Transparent"  InputType="Email" />
+                    <material:MaterialTextField Placeholder="No Telp WA"  x:Name="txtNoTelp" ErrorText="No Telp WA Harus Diisi" Text="" BackgroundColor="White"  InputType="Telephone" />
+                    <material:MaterialTextField Placeholder="No Email"  x:Name="txtEmail" ErrorText="Email Harus Diisi" Text="" BackgroundColor="White"   InputType="Email" />
                     <material:MaterialTextField Placeholder="Gol Darah"   
-                                                x:Name="txtGolDarah" ErrorText="Gol Darah Harus Dipilih" Text="" BackgroundColor="Transparent" InputType="Choice" ChoiceSelected="txtStatusKawin_ChoiceSelected"  
+                                                x:Name="txtGolDarah" ErrorText="Gol Darah Harus Dipilih" Text="" InputType="Choice"  Choices="{Binding  listGolonganDarah}"   BackgroundColor="White" 
                                                 />
-                    <material:MaterialTextField Placeholder="Tinggi Badan(cm)" x:Name="txtTinggi"   ErrorText="Tinggi Badan Harus Diisi" Text="" BackgroundColor="Transparent"  InputType="Telephone" />
-                    <material:MaterialTextField Placeholder="Berat Badan(Kg)" x:Name="txtBerat"   ErrorText="Berat Badan Harus Diisi" Text="" BackgroundColor="Transparent"  InputType="Email" />
+                    <material:MaterialTextField Placeholder="Tinggi Badan(cm)" x:Name="txtTinggi"   ErrorText="Tinggi Badan Harus Diisi" Text="" BackgroundColor="White"   InputType="Numeric" />
+                    <material:MaterialTextField Placeholder="Berat Badan(Kg)" x:Name="txtBerat"   ErrorText="Berat Badan Harus Diisi" Text="" BackgroundColor="White"   InputType="Numeric" />
 
                 </StackLayout>
 

@@ -6,7 +6,7 @@
              mc:Ignorable="d" 
             x:Class="BethesdaMobileXamarin.Room.EmptyRoomForm">
 
-    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"  >
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="#bbdefb"  >
         <Image Source="logo_bethesda.png" WidthRequest="50" HeightRequest="50"  ></Image>
         <StackLayout HorizontalOptions="CenterAndExpand">
             <Label  Text="Informasi Ketersediaan Kamar"  FontSize="Subtitle"   VerticalTextAlignment="Center" ></Label>
@@ -18,7 +18,7 @@
             </CollectionView.ItemsLayout>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Frame WidthRequest="40" HeightRequest="70" HasShadow="True"   BackgroundColor="#b2ebf2"
+                    <Frame WidthRequest="40" HeightRequest="70" HasShadow="True"   
                                VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Style="{StaticResource DefaultFrame}"  Padding="10">
                         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                             <Label  Text="{Binding NamaKelas}"  FontSize="Medium"  VerticalTextAlignment="Center" TextColor="#0288d1" FontAttributes="Bold" ></Label>

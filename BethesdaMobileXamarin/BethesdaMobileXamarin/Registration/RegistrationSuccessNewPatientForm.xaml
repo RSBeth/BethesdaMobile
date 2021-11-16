@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
+             x:Class="BethesdaMobileXamarin.Registration.RegistrationSuccessNewPatientForm"  NavigationPage.HasNavigationBar="False"  >
+    <ContentPage.Content>
+        <StackLayout>
+
+             <StackLayout BackgroundColor="blue" HeightRequest="120">
+                <Image Source="logo_bethesda.png" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="50" HeightRequest="50" Margin="0,10,0,0"/>
+                <Label HorizontalOptions="Center" TextColor="White">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Pendaftaran Berhasil" FontSize="Title" FontFamily="Lato-Regular" FontAttributes="Bold"  />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+            <ScrollView VerticalScrollBarVisibility="Never"  Margin="20,5,5,5" BackgroundColor="white">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="180" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" FontAttributes="Bold" Text="No KTP"  FontSize="Small" FontFamily="Lato-Regular" />
+                    <Label Grid.Row="0" Grid.Column="1" FontAttributes="Bold" Text="1111111111111111" x:Name="TxtNoKTP" FontSize="Small" FontFamily="Lato-Regular"/>
+
+
+                    <Label Grid.Row="1" Grid.Column="0" FontAttributes="Bold" Text="Nama Pasien" FontSize="Small" FontFamily="Lato-Regular" />
+                    <Label Grid.Row="1" Grid.Column="1" FontAttributes="Bold" Text="Nama Pasien " x:Name="txtNama"  FontSize="Small" FontFamily="Lato-Regular"/>
+
+                    <Label Grid.Row="2" Grid.Column="0" FontAttributes="Bold" Text="Tgl Periksa" FontSize="Small" FontFamily="Lato-Regular" />
+                    <Label Grid.Row="2" Grid.Column="1" FontAttributes="Bold" Text="Tgl Periksa" x:Name="txtTgl"  FontSize="Small" FontFamily="Lato-Regular"/>
+
+
+                    <Label Grid.Row="3" Grid.Column="0" FontAttributes="Bold" Text="Klinik"  FontSize="Small" FontFamily="Lato-Regular" />
+                    <Label Grid.Row="3" Grid.Column="1" FontAttributes="Bold" Text="Klinik"  x:Name="txtKlinik"   FontSize="Small" FontFamily="Lato-Regular"/>
+
+
+                    <Label Grid.Row="4" Grid.Column="0" FontAttributes="Bold" Text="Dokter"  FontSize="Small" FontFamily="Lato-Regular" />
+                    <Label Grid.Row="4" Grid.Column="1" FontAttributes="Bold" Text="Dokter Nama" x:Name="txtDokter"  FontSize="Small" FontFamily="Lato-Regular"/>
+
+                    <Label Grid.Row="5" Grid.Column="0" FontAttributes="Bold" Text="No Urut"  FontSize="Small" FontFamily="Lato-Regular" />
+                    <Label Grid.Row="5" Grid.Column="1" FontAttributes="Bold" Text="No Urut" x:Name="txtUrut"  FontSize="Small" FontFamily="Lato-Regular"/>
+                  
+                </Grid>
+               
+            </ScrollView>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="10">
+                <Label   FontAttributes="Bold" Text="Catatan"  FontSize="Medium" FontFamily="Lato-Regular"/>
+             
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="10">
+                <Label   FontAttributes="Bold" Text="Catatan"  x:Name="txtCatatan" FontSize="Small" FontFamily="Lato-Regular" />
+               
+            </StackLayout>
+            <StackLayout Orientation="Vertical"  HorizontalOptions="Center" Spacing="10" >
+                <material:MaterialButton  Text="Simpan Bukti Pendaftaran" x:Name="btnScreenshoot"  Clicked="btnScreenshoot_Clicked"  TextColor="White" FontFamily="Lato-Regular" BackgroundColor="#0069c0" />
+                <material:MaterialButton  Text="Kembali Ke Menu Utama" x:Name="btnBack" Clicked="btnBack_Clicked" TextColor="White" FontFamily="Lato-Regular"  BackgroundColor="#087f23"  />
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
